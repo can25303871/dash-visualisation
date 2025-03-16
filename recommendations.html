@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <head>
+        
+        <title>Recommendations</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <script src="menu_bar.js"></script>
+        
+    </head>
+
+    <body>
+        <header>
+            <div class="menu_and_header">
+                <div class="header-top">
+
+                    <img class="pl-header-logo" src="images/pl-main-logo.png" alt="Premier League Logo">
+
+                    <div class="hamburger-container" onclick="menu_bar_transform(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+
+                    <h0>Fantasy Premier League Stats</h0>
+
+                </div>
+                
+                <nav id="menu">
+
+                    <ul id="internal_links" class="internal_links fade-out">
+                        <li><a href="info.html" class="link-list-element">Info Page</a></li>
+                        <li><a href="visualisations.html" class="link-list-element">Visualisations</a></li>
+                        <li><a href="form.html" class="link-list-element">Form and results</a></li>
+                        <li><a href="recommendations.html" class="link-list-element">Recommendations</a> </li>
+                    </ul>
+
+                </nav>
+            </div>
+        </header>
+
+        <h1>Recommendations Page</h1>
+        
+        <div class="indented-block">
+            <p>To help pick our in-game team for the next three gameweeks, we can consult Fixture Difficulty Ratings (FDR), 
+                which are a way of quantifying, in numerical form, how difficult a match will be for a given team, and consequently how the team can be expected to perform. <br>
+                The <a href="https://fantasy.premierleague.com/fixtures/fdr" class="link-purple">Premier League website</a> explains FDR as follows: <br>
+            </p>
+            <p class="FDR-explained"><b>FDR Explained </b><br>
+                The FDR is based on a complex algorithm developed by FPL experts. <br>
+                A set of formulas process key Opta data variables, along with each team's home and away form for the past six matches, 
+                to generate a rank for the perceived difficulty of each Gameweek opponent. <br>
+                The FDR is designed to help FPL managers plan their transfer and team selection strategy. It is reviewed on a weekly basis and updated as the season progresses.
+            </p>
+            
+            <p>Here is a graph showing the FDR of all teams for the next three gameweeks. We can use this to inform our decisions of which players to put on our team.</p>
+        </div>
+
+        <div class="centred">
+            <iframe class="graphs" src="fdr_plot_for_recommendations.html" title="fdr_plot_for_recommendations"></iframe>
+        </div><br>
+
+        <div class="indented-block">
+            <p>
+                Teams with fixtures rated four or higher on the FDR are to be avoided. Looking at the next three gameweeks, 
+                it is important to note that Liverpool, Newcastle, Aston Villa, and Crystal Palace all have no matches in Gameweek 29(This is called a "blank gameweek").
+                Players from these teams should therefore be avoided, as they will earn zero in-game points in Gameweek 29.
+            </p>
+            <h3>The following teams have FDR below two for all three of their upcoming matches, as well as having no blank gameweeks:</h3>
+            <ul>
+                <li>Bournemouth</li>
+                <li>Wolves</li>
+            </ul>
+            <h3>All players who are suspended or injured should be avoided. Here are the players from these two teams with a 100% chance of playing the next game.</h3>
+            <p>
+                Adams, Brooks, Cook, Hill, Jebbison, Kerkez, Kluivert, O.Dango, Scott, Semenyo, Sinisterra, Tavernier, Arrizabalaga, J.Araujo, Evanilson, Soler, 
+                Johnstone, Aït-Nouri, B.Traore, Dawson, Hee Chan, J.Gomes, José Sá, N.Semedo, S.Bueno, Sarabia, Strand Larsen, Toti, Meupiyou, André, Forbs
+            </p><br>
+            <p>And here they are graphed by total points versus price, to highlight the best value picks.</p>
+        </div>
+        
+        <div class="centred">
+            <iframe class="small-graph" src="players_plot_for_recommendations.html" title="players_plot_for_recommendations"></iframe>
+        </div><br>
+
+        <div class="indented-block">
+            <h2>So what players should you buy? Looking first at Bournemouth, there are several good options.</h2>
+            <h4><b>Kluivert</b></h4>
+            <p>
+                If you don't have Kluivert in your team, it's a great time to being him in. 
+                As can be seen in the 'Price versus Total Points' graph on the graphs page, Kluivert consistently outperforms his low in-game price tag, 
+                amassing 140 total points for only £6.1M. He should be a priority purchase over the next three gameweeks.
+            </p>
+            <h4><b>Evanilson</b></h4>
+            <p>
+                Evanilson has recently returned from injury and is expected to be Bournemouth's starting striker for the foreseeable future. 
+                He is a good budget striker pick, at only £5.6M. 
+                Evanilson's return puts O.Dango's minutes into doubt, he may not see many starts in the future.
+            </p>
+            <h4><b>Semenyo</b></h4>
+            <p>
+                A solid option in midfield, although he may now see fewer minutes as injured players return to the Bournemouth squad.
+            </p>
+            <h4><b>Kerkes</b></h4>
+            <p>
+                Kerkes has been in good form recently, getting an assist in each of his last 2 gameweeks. 
+                With Bournemouth's run of relatively easy matches, he should notch up more points for clean sheets and assists over the next few weeks.
+            </p>
+            <h4><b>Arrizabalaga</b></h4>
+            <p>
+                The Bournemouth goalkeeper is on loan from Chelsea, having spent last season in Real Madrid.
+                He is one of the best goalkeeper choices right now owing to Bournemouth's kind fixtures.
+            </p>
+            <br>
+
+            <h2>Moving onto Wolves, where reliable players are harder to come by, especially given that their star player Cunha is serving a suspension following a red card.</h2>
+            <h4>Strand Larsen</h4>
+            <p>
+                Although he is going through a bad run of form, Strand Larsen may still be a good pick, as his club are facing two of the bottom three sides over the next three weeks.
+            </p>
+            <h4>Aït-Nouri</h4>
+            <p>A good defensive option, who should definitely pick up a few points for clean sheets over the next three weeks</p>
+            <h4>J.Gomes</h4>
+            <p>Gomes is in good form recently, scoring a goal against Fulham two weeks ago. He's not the most reliable player though, so he may be better off on the bench</p>
+            <h4>José Sá</h4>
+            <p>
+                The Wolves goalkeeper recently kept a clean sheet against Bournemouth, who have been a very threatening side recently. 
+                This bodes well for his chances of clean sheets against Southampton and Ipswich in the upcoming weeks.
+            </p>
+            <h3>
+                In conclusion, players from Bournemouth and maybe from Wolves are a good choice over the next three weeks. 
+                FPL users should buy Kluivert as soon as possible, then Evanilson. 
+                After that, Semenyo, Kerkes or Aït-Nouri are all good players to have in your squad.
+                Neither goalkeeper is a priority buy, as the variance in goalkeeper points is generally far lower than the variance in outfield player points.
+            </h3>
+        </div>
+    </body>
+
+
+
+</html>

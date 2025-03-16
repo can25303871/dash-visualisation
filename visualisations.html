@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <head>
+        
+        <title>Visualisations</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <script src="menu_bar.js"></script>
+        
+    </head>
+
+    <body>
+        <header>
+            <div class="menu_and_header">
+                <div class="header-top">
+
+                    <img class="pl-header-logo" src="images/pl-main-logo.png" alt="Premier League Logo">
+
+                    <div class="hamburger-container" onclick="menu_bar_transform(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+
+                    <h0>Fantasy Premier League Stats</h0>
+
+                </div>
+                
+                <nav id="menu">
+
+                    <ul id="internal_links" class="internal_links fade-out">
+                        <li><a href="info.html" class="link-list-element">Info Page</a></li>
+                        <li><a href="visualisations.html" class="link-list-element">Graph viewer</a></li>
+                        <li><a href="form.html" class="link-list-element">Form and results</a></li>
+                        <li><a href="recommendations.html" class="link-list-element">Recommendations</a> </li>
+                    </ul>
+
+                </nav>
+            </div>
+        </header>
+
+        <div class="centred"><h1>Visualisations Page</h1></div>
+        <div class="graph-container">
+            <iframe class="graphs" src="plot_from_plotly.html" title="Graphs"></iframe>
+            
+
+            <a href="https://github.com/vaastav/Fantasy-Premier-League/blob/master/data/2024-25/players_raw.csv" class="data-source" id="source_link">
+            Data source</a>
+
+        </div>
+        <br>
+        <div class="centred"><h1>Significance of the visualisations</h1></div>
+
+        <div class="visualisation-explanation-container">
+            <div class="visualisation-explanation">
+                <h2>Goals Scored versus Expected Goals</h2>
+                <p>
+                    This shows better and worse finishers in the league. A player far above the trendline is an expert at converting chances,
+                    their position on the chart means that they have scored more goals than would be expected given the circumstances of their shots and chances.
+                    Conversely, players far below the trendline have poor finishing, and have scored fewer goals than they would be expected to, 
+                    given the circumstances of their shots and chances.
+                </p>
+            </div>
+            <div class="visualisation-explanation">
+                <h2>Total Points versus Price</h2>
+                <p>
+                    This is about FPL in-game data. It shows the best value players in the game, based on their total number of in-game points.
+                    A player far above the trendline is outperforming their price tag, while a player far below the trendline is underperforming.
+                </p>
+            </div>
+            <div class="visualisation-explanation">
+                <h2>Expected versus Actual Goal Involvements for 10 most expensive players</h2>
+                <p>
+                    This graph is similar to graph 1, but the information also included assists. 
+                    Players are ordered from left to right in decreasing order of price.
+                    This again shows players who are over- or underperforming based on expected goals and expected assists.
+                    As these are the most expensive players in the game, we would expect them to be overperforming, and they all are.
+                </p>
+            </div>
+            <div class="visualisation-explanation">
+                <h2>Form versus Ownership</h2>
+                <p>
+                    These are again in-game statistics. 
+                    Ownership is the proportion of FPL users who have this player in their in-game squad.
+                    Form is the average points-per-match over the last five matches.
+                    There is a much weaker correlation between these two than in the other scatter plots,
+                    indicating that FPL users are as a whole not very receptive to the performance of players over the short term.
+                </p>
+            </div>
+            <div class="visualisation-explanation">
+                <h2>Total Points (Managers)</h2>
+                <p>
+                    Managers in FPL obviously work differently to players.
+                    Managers score points when their team wins, draws or keeps a clean sheet, and for every goal scored.
+                    Managers score more points for beating or drawing with teams ranked far ahead of them in the table.
+                    This is why the top managers do not necessarily have the most points, 
+                    while managers of lower ranked teams get a huge boost from beating top teams.
+                </p>
+            </div>
+        </div>
+
+    </body>
+
+
+
+</html>

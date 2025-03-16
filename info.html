@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <head>
+        
+        <title>Info page</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico"> <!-- I made this on https://www.favicon.cc/ -->
+        <script src="menu_bar.js"></script>
+        
+    </head>
+
+    <body>
+        <header>
+            <div class="menu_and_header">
+                <div class="header-top">
+
+                    <img class="pl-header-logo" src="images/pl-main-logo.png" alt="Premier League Logo">
+
+                    <div class="hamburger-container" onclick="menu_bar_transform(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+
+                    <h0>Fantasy Premier League Stats</h0>
+
+                </div>
+                
+                <nav id="menu">
+
+                    <ul id="internal_links" class="internal_links fade-out">
+                        <li><a href="info.html" class="link-list-element">Info Page</a></li>
+                        <li><a href="visualisations.html" class="link-list-element">Visualisations</a></li>
+                        <li><a href="form.html" class="link-list-element">Form and results</a></li>
+                        <li><a href="recommendations.html" class="link-list-element">Recommendations</a> </li>
+                    </ul>
+
+                </nav>
+            </div>
+        </header>
+        <div class="indented-block">
+            <h1>Info Page</h1>
+            <p>This page gives information about the Fantasy Premier League (FPL) dataset, which is used to analyse player performance, team statistics, and user preferences in the Premier League.</p>
+            
+            <h3>How to Use This Website</h3>
+            <p>This website provides an interactive interface to explore the Fantasy Premier League dataset. You can:</p>
+            <ul>
+                <li>Learn more about the Fantasy Premier League game as well as the dataset and its relevance on the current page.</li>
+                <li>View visualizations of key statistics on the <a href="visualisations.html">Visualisations</a> page.</li>
+                <li>Take part in a poll on the <a href="form.html">Form and Results</a> page and see what other users have answered.</li>
+                <li>Get recommendations for your FPL squad on the <a href="recommendations.html">Recommendations</a> page.</li>
+            </ul>
+        
+            <h2>Fantasy Premier League: a brief overview</h2>
+            <p>
+                <a href="https://fantasy.premierleague.com/">Fantasy Premier League</a> 
+                (FPL) is a popular mobile and web-based game where a user starts with a £100M budget, and picks a squad of fifteen players from the Premier League.
+                Different players cost different amounts depending on their past performances or real-world price.
+                From these fifteen, the user picks eleven starting players and four substitutes, with constraints such as 1 goalkeeper and minimum 3 defenders. 
+                This starting eleven must contain a captain, who earns double points, and a vice-captain, who assumes the captaincy if the captain doesn't play.
+                The substitutes on a users bench will come onto the team if one of their starting eleven doesn't play that week, meaning it is important to have a strong bench
+                The user earns points based on the performance of their 11 selected players, depending on the positions of these players.
+                For example, goalkeepers and defenders earn four points for a clean sheet, and forwards earn four points for scoring a goal.
+                All players earn 3 points for an assist and 2 points for playing over 60 minutes.
+                Players can also lose points, for yellow and red cards, own goals or missed penalties.
+                A full breakdown of points is available <a href="https://www.premierleague.com/news/2174909">here</a> on the Premier League website.
+            </p>
+            <p>
+                Users can use one free transfer per week to buy and sell players, after the free transfer is used they are deducted points for subsequent transfers. 
+                These free transfers accumulate up to five if unused. This means that long term planning is an important part of the game, 
+                it is a bad idea to buy a player with one easy game then a run of tougher games.
+            </p>
+            <p>
+                Users also have access to what are called 'chips', such as bench boost or assistant manager. 
+                These have special functions in the game and each one can generally only be used once a season.
+                For example, bench boost makes it so that all fifteen players in a user's squad will earn points, not just the starters.
+                Assistant manager allows a user to buy a manager and earn points based on their team's performance, such as winning, drawing, scoring, or keeping a clean sheet.
+            </p>
+        
+            <h2>Dataset Overview</h2>
+            <p>The Fantasy Premier League dataset includes a multitude of different Premier League data, such as player statistics and team performance.</p>
+            
+            <h3>Key Features of the Dataset</h3>
+            <ul>
+                <li><strong>Player Statistics:</strong> The dataset includes detailed information about players and managers, such as:
+                    <ul>
+                        <li>Goals scored</li>
+                        <li>Assists</li>
+                        <li>Minutes played</li>
+                        <li>Yellow and red cards</li>
+                        <li>Clean sheets (for defenders, goalkeepers, and midfielders)</li>
+                        <li>Wins, draws, and losses for managers.</li>
+                    </ul>
+                </li>
+                <li><strong>Team Performance:</strong> The dataset also includes team performance information, such as:
+                    <ul>
+                        <li>Total goals scored and conceded</li>
+                        <li>Wins, draws, and losses</li>
+                        <li>Home and away performance</li>
+                        <li>Form over the last 5 matches</li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <h3>Dataset Structure</h3>
+            <p>The dataset is structured into several files, focusing on different Premier League data:</p>
+            <ul>
+                <li><strong>Players:</strong> The dataset contains individual player statistics, including position, team, and performance information such as goals and assists.</li>
+                <li><strong>Teams:</strong> Information such as total goals, wins, and form is provided.</li>
+                <li><strong>Fixtures:</strong> Fixture info is included for each team, such as dates, venues, and results.</li>
+            </ul>
+        
+            <h3>Relevance of the dataset</h3>
+            <p>The Fantasy Premier League dataset is highly relevant for:</p>
+            <ul>
+                <li><strong>FPL users:</strong> Helps users make decisions about team selection, transfers, and captain choices.</li>
+                <li><strong>Data Analysts</strong> Player and team performance can be easily analysed over time.</li>
+                <li><strong>Other Premier League Enthusiasts:</strong> The dataset contains a wealth of information about players and teams.</li>
+            </ul>
+            
+            <h3>Insights: Examples</h3>
+            <p>Here are some examples of possible insights from the dataset:</p>
+            <ul>
+                <li><strong>Top Scorers:</strong> Players with the most goals or assists in a season can be easily identified.</li>
+                <li><strong>Team Form:</strong> Analyse which teams are in the best form over the last 5 matches.</li>
+                <li><strong>User Preferences:</strong> Determine the most popular players in the in-game teams of Fantasy Premier League users.</li>
+            </ul>
+            
+            <h3>Data Source</h3>
+            <p>
+                The data is sourced from <a href="https://github.com/vaastav/Fantasy-Premier-League">Fantasy Premier League GitHub</a>. You can find more information there. 
+                The data is updated weekly, after all matches have finished.
+            </p>
+        </div>
+    </body>
+
+
+
+</html>

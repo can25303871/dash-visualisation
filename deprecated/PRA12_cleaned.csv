@@ -1,0 +1,426 @@
+STATISTIC,Statistic Label,TLIST(A1),Year,C02480V03003,Subsequent Reoffence,UNIT,VALUE
+PRA12C01,Re-offended within 1 year,2017,2017,1,Homicide offences,Number,1
+PRA12C01,Re-offended within 1 year,2017,2017,2,Sexual offences,Number,8
+PRA12C01,Re-offended within 1 year,2017,2017,3,"Attempts/threats to murder, assaults, harassments and related offences",Number,150
+PRA12C01,Re-offended within 1 year,2017,2017,4,Dangerous or negligent acts,Number,44
+PRA12C01,Re-offended within 1 year,2017,2017,5,Kidnapping and related offences,Number,4
+PRA12C01,Re-offended within 1 year,2017,2017,6,"Robbery, extortion and hijacking offences",Number,26
+PRA12C01,Re-offended within 1 year,2017,2017,7,Burglary and related offences,Number,124
+PRA12C01,Re-offended within 1 year,2017,2017,8,Theft and related offences,Number,349
+PRA12C01,Re-offended within 1 year,2017,2017,9,"Fraud, deception and related offences",Number,19
+PRA12C01,Re-offended within 1 year,2017,2017,10,Controlled drug offences,Number,57
+PRA12C01,Re-offended within 1 year,2017,2017,11,Weapons and Explosives Offences,Number,62
+PRA12C01,Re-offended within 1 year,2017,2017,12,Damage to property and to the environment,Number,87
+PRA12C01,Re-offended within 1 year,2017,2017,13,Public order and other social code offences,Number,101
+PRA12C01,Re-offended within 1 year,2017,2017,14,Road and traffic offences (n.e.c.),Number,102
+PRA12C01,Re-offended within 1 year,2017,2017,15,"Offences against government, justice procedures and organisation of crime",Number,83
+PRA12C01,Re-offended within 1 year,2017,2017,16,Offences not elsewhere classified,Number,9
+PRA12C01,Re-offended within 1 year,2017,2017,200,All offences,Number,1226
+PRA12C01,Re-offended within 1 year,2018,2018,1,Homicide offences,Number,4
+PRA12C01,Re-offended within 1 year,2018,2018,2,Sexual offences,Number,7
+PRA12C01,Re-offended within 1 year,2018,2018,3,"Attempts/threats to murder, assaults, harassments and related offences",Number,161
+PRA12C01,Re-offended within 1 year,2018,2018,4,Dangerous or negligent acts,Number,31
+PRA12C01,Re-offended within 1 year,2018,2018,5,Kidnapping and related offences,Number,6
+PRA12C01,Re-offended within 1 year,2018,2018,6,"Robbery, extortion and hijacking offences",Number,13
+PRA12C01,Re-offended within 1 year,2018,2018,7,Burglary and related offences,Number,108
+PRA12C01,Re-offended within 1 year,2018,2018,8,Theft and related offences,Number,351
+PRA12C01,Re-offended within 1 year,2018,2018,9,"Fraud, deception and related offences",Number,17
+PRA12C01,Re-offended within 1 year,2018,2018,10,Controlled drug offences,Number,73
+PRA12C01,Re-offended within 1 year,2018,2018,11,Weapons and Explosives Offences,Number,53
+PRA12C01,Re-offended within 1 year,2018,2018,12,Damage to property and to the environment,Number,114
+PRA12C01,Re-offended within 1 year,2018,2018,13,Public order and other social code offences,Number,125
+PRA12C01,Re-offended within 1 year,2018,2018,14,Road and traffic offences (n.e.c.),Number,126
+PRA12C01,Re-offended within 1 year,2018,2018,15,"Offences against government, justice procedures and organisation of crime",Number,123
+PRA12C01,Re-offended within 1 year,2018,2018,16,Offences not elsewhere classified,Number,11
+PRA12C01,Re-offended within 1 year,2018,2018,200,All offences,Number,1323
+PRA12C01,Re-offended within 1 year,2019,2019,1,Homicide offences,Number,4
+PRA12C01,Re-offended within 1 year,2019,2019,2,Sexual offences,Number,12
+PRA12C01,Re-offended within 1 year,2019,2019,3,"Attempts/threats to murder, assaults, harassments and related offences",Number,174
+PRA12C01,Re-offended within 1 year,2019,2019,4,Dangerous or negligent acts,Number,55
+PRA12C01,Re-offended within 1 year,2019,2019,5,Kidnapping and related offences,Number,8
+PRA12C01,Re-offended within 1 year,2019,2019,6,"Robbery, extortion and hijacking offences",Number,26
+PRA12C01,Re-offended within 1 year,2019,2019,7,Burglary and related offences,Number,168
+PRA12C01,Re-offended within 1 year,2019,2019,8,Theft and related offences,Number,463
+PRA12C01,Re-offended within 1 year,2019,2019,9,"Fraud, deception and related offences",Number,29
+PRA12C01,Re-offended within 1 year,2019,2019,10,Controlled drug offences,Number,137
+PRA12C01,Re-offended within 1 year,2019,2019,11,Weapons and Explosives Offences,Number,66
+PRA12C01,Re-offended within 1 year,2019,2019,12,Damage to property and to the environment,Number,126
+PRA12C01,Re-offended within 1 year,2019,2019,13,Public order and other social code offences,Number,155
+PRA12C01,Re-offended within 1 year,2019,2019,14,Road and traffic offences (n.e.c.),Number,190
+PRA12C01,Re-offended within 1 year,2019,2019,15,"Offences against government, justice procedures and organisation of crime",Number,161
+PRA12C01,Re-offended within 1 year,2019,2019,16,Offences not elsewhere classified,Number,20
+PRA12C01,Re-offended within 1 year,2019,2019,200,All offences,Number,1794
+PRA12C01,Re-offended within 1 year,2020,2020,1,Homicide offences,Number,4
+PRA12C01,Re-offended within 1 year,2020,2020,2,Sexual offences,Number,12
+PRA12C01,Re-offended within 1 year,2020,2020,3,"Attempts/threats to murder, assaults, harassments and related offences",Number,139
+PRA12C01,Re-offended within 1 year,2020,2020,4,Dangerous or negligent acts,Number,24
+PRA12C01,Re-offended within 1 year,2020,2020,5,Kidnapping and related offences,Number,3
+PRA12C01,Re-offended within 1 year,2020,2020,6,"Robbery, extortion and hijacking offences",Number,30
+PRA12C01,Re-offended within 1 year,2020,2020,7,Burglary and related offences,Number,98
+PRA12C01,Re-offended within 1 year,2020,2020,8,Theft and related offences,Number,300
+PRA12C01,Re-offended within 1 year,2020,2020,9,"Fraud, deception and related offences",Number,13
+PRA12C01,Re-offended within 1 year,2020,2020,10,Controlled drug offences,Number,66
+PRA12C01,Re-offended within 1 year,2020,2020,11,Weapons and Explosives Offences,Number,53
+PRA12C01,Re-offended within 1 year,2020,2020,12,Damage to property and to the environment,Number,81
+PRA12C01,Re-offended within 1 year,2020,2020,13,Public order and other social code offences,Number,88
+PRA12C01,Re-offended within 1 year,2020,2020,14,Road and traffic offences (n.e.c.),Number,92
+PRA12C01,Re-offended within 1 year,2020,2020,15,"Offences against government, justice procedures and organisation of crime",Number,125
+PRA12C01,Re-offended within 1 year,2020,2020,16,Offences not elsewhere classified,Number,9
+PRA12C01,Re-offended within 1 year,2020,2020,200,All offences,Number,1137
+PRA12C01,Re-offended within 1 year,2021,2021,1,Homicide offences,Number,4
+PRA12C01,Re-offended within 1 year,2021,2021,2,Sexual offences,Number,8
+PRA12C01,Re-offended within 1 year,2021,2021,3,"Attempts/threats to murder, assaults, harassments and related offences",Number,151
+PRA12C01,Re-offended within 1 year,2021,2021,4,Dangerous or negligent acts,Number,39
+PRA12C01,Re-offended within 1 year,2021,2021,5,Kidnapping and related offences,Number,2
+PRA12C01,Re-offended within 1 year,2021,2021,6,"Robbery, extortion and hijacking offences",Number,26
+PRA12C01,Re-offended within 1 year,2021,2021,7,Burglary and related offences,Number,111
+PRA12C01,Re-offended within 1 year,2021,2021,8,Theft and related offences,Number,236
+PRA12C01,Re-offended within 1 year,2021,2021,9,"Fraud, deception and related offences",Number,13
+PRA12C01,Re-offended within 1 year,2021,2021,10,Controlled drug offences,Number,71
+PRA12C01,Re-offended within 1 year,2021,2021,11,Weapons and Explosives Offences,Number,37
+PRA12C01,Re-offended within 1 year,2021,2021,12,Damage to property and to the environment,Number,85
+PRA12C01,Re-offended within 1 year,2021,2021,13,Public order and other social code offences,Number,85
+PRA12C01,Re-offended within 1 year,2021,2021,14,Road and traffic offences (n.e.c.),Number,100
+PRA12C01,Re-offended within 1 year,2021,2021,15,"Offences against government, justice procedures and organisation of crime",Number,190
+PRA12C01,Re-offended within 1 year,2021,2021,16,Offences not elsewhere classified,Number,10
+PRA12C01,Re-offended within 1 year,2021,2021,200,All offences,Number,1168
+PRA12C02,Did not re-offend within 1 year,2017,2017,1,Homicide offences,Number,24
+PRA12C02,Did not re-offend within 1 year,2017,2017,2,Sexual offences,Number,76
+PRA12C02,Did not re-offend within 1 year,2017,2017,3,"Attempts/threats to murder, assaults, harassments and related offences",Number,192
+PRA12C02,Did not re-offend within 1 year,2017,2017,4,Dangerous or negligent acts,Number,63
+PRA12C02,Did not re-offend within 1 year,2017,2017,5,Kidnapping and related offences,Number,6
+PRA12C02,Did not re-offend within 1 year,2017,2017,6,"Robbery, extortion and hijacking offences",Number,19
+PRA12C02,Did not re-offend within 1 year,2017,2017,7,Burglary and related offences,Number,68
+PRA12C02,Did not re-offend within 1 year,2017,2017,8,Theft and related offences,Number,244
+PRA12C02,Did not re-offend within 1 year,2017,2017,9,"Fraud, deception and related offences",Number,45
+PRA12C02,Did not re-offend within 1 year,2017,2017,10,Controlled drug offences,Number,183
+PRA12C02,Did not re-offend within 1 year,2017,2017,11,Weapons and Explosives Offences,Number,43
+PRA12C02,Did not re-offend within 1 year,2017,2017,12,Damage to property and to the environment,Number,51
+PRA12C02,Did not re-offend within 1 year,2017,2017,13,Public order and other social code offences,Number,50
+PRA12C02,Did not re-offend within 1 year,2017,2017,14,Road and traffic offences (n.e.c.),Number,175
+PRA12C02,Did not re-offend within 1 year,2017,2017,15,"Offences against government, justice procedures and organisation of crime",Number,95
+PRA12C02,Did not re-offend within 1 year,2017,2017,16,Offences not elsewhere classified,Number,40
+PRA12C02,Did not re-offend within 1 year,2017,2017,200,All offences,Number,1374
+PRA12C02,Did not re-offend within 1 year,2018,2018,1,Homicide offences,Number,22
+PRA12C02,Did not re-offend within 1 year,2018,2018,2,Sexual offences,Number,75
+PRA12C02,Did not re-offend within 1 year,2018,2018,3,"Attempts/threats to murder, assaults, harassments and related offences",Number,191
+PRA12C02,Did not re-offend within 1 year,2018,2018,4,Dangerous or negligent acts,Number,51
+PRA12C02,Did not re-offend within 1 year,2018,2018,5,Kidnapping and related offences,Number,9
+PRA12C02,Did not re-offend within 1 year,2018,2018,6,"Robbery, extortion and hijacking offences",Number,29
+PRA12C02,Did not re-offend within 1 year,2018,2018,7,Burglary and related offences,Number,82
+PRA12C02,Did not re-offend within 1 year,2018,2018,8,Theft and related offences,Number,254
+PRA12C02,Did not re-offend within 1 year,2018,2018,9,"Fraud, deception and related offences",Number,48
+PRA12C02,Did not re-offend within 1 year,2018,2018,10,Controlled drug offences,Number,190
+PRA12C02,Did not re-offend within 1 year,2018,2018,11,Weapons and Explosives Offences,Number,44
+PRA12C02,Did not re-offend within 1 year,2018,2018,12,Damage to property and to the environment,Number,66
+PRA12C02,Did not re-offend within 1 year,2018,2018,13,Public order and other social code offences,Number,73
+PRA12C02,Did not re-offend within 1 year,2018,2018,14,Road and traffic offences (n.e.c.),Number,164
+PRA12C02,Did not re-offend within 1 year,2018,2018,15,"Offences against government, justice procedures and organisation of crime",Number,96
+PRA12C02,Did not re-offend within 1 year,2018,2018,16,Offences not elsewhere classified,Number,66
+PRA12C02,Did not re-offend within 1 year,2018,2018,200,All offences,Number,1460
+PRA12C02,Did not re-offend within 1 year,2019,2019,1,Homicide offences,Number,26
+PRA12C02,Did not re-offend within 1 year,2019,2019,2,Sexual offences,Number,70
+PRA12C02,Did not re-offend within 1 year,2019,2019,3,"Attempts/threats to murder, assaults, harassments and related offences",Number,245
+PRA12C02,Did not re-offend within 1 year,2019,2019,4,Dangerous or negligent acts,Number,89
+PRA12C02,Did not re-offend within 1 year,2019,2019,5,Kidnapping and related offences,Number,15
+PRA12C02,Did not re-offend within 1 year,2019,2019,6,"Robbery, extortion and hijacking offences",Number,30
+PRA12C02,Did not re-offend within 1 year,2019,2019,7,Burglary and related offences,Number,110
+PRA12C02,Did not re-offend within 1 year,2019,2019,8,Theft and related offences,Number,350
+PRA12C02,Did not re-offend within 1 year,2019,2019,9,"Fraud, deception and related offences",Number,55
+PRA12C02,Did not re-offend within 1 year,2019,2019,10,Controlled drug offences,Number,303
+PRA12C02,Did not re-offend within 1 year,2019,2019,11,Weapons and Explosives Offences,Number,65
+PRA12C02,Did not re-offend within 1 year,2019,2019,12,Damage to property and to the environment,Number,96
+PRA12C02,Did not re-offend within 1 year,2019,2019,13,Public order and other social code offences,Number,102
+PRA12C02,Did not re-offend within 1 year,2019,2019,14,Road and traffic offences (n.e.c.),Number,346
+PRA12C02,Did not re-offend within 1 year,2019,2019,15,"Offences against government, justice procedures and organisation of crime",Number,220
+PRA12C02,Did not re-offend within 1 year,2019,2019,16,Offences not elsewhere classified,Number,110
+PRA12C02,Did not re-offend within 1 year,2019,2019,200,All offences,Number,2232
+PRA12C02,Did not re-offend within 1 year,2020,2020,1,Homicide offences,Number,16
+PRA12C02,Did not re-offend within 1 year,2020,2020,2,Sexual offences,Number,83
+PRA12C02,Did not re-offend within 1 year,2020,2020,3,"Attempts/threats to murder, assaults, harassments and related offences",Number,234
+PRA12C02,Did not re-offend within 1 year,2020,2020,4,Dangerous or negligent acts,Number,47
+PRA12C02,Did not re-offend within 1 year,2020,2020,5,Kidnapping and related offences,Number,12
+PRA12C02,Did not re-offend within 1 year,2020,2020,6,"Robbery, extortion and hijacking offences",Number,29
+PRA12C02,Did not re-offend within 1 year,2020,2020,7,Burglary and related offences,Number,82
+PRA12C02,Did not re-offend within 1 year,2020,2020,8,Theft and related offences,Number,276
+PRA12C02,Did not re-offend within 1 year,2020,2020,9,"Fraud, deception and related offences",Number,43
+PRA12C02,Did not re-offend within 1 year,2020,2020,10,Controlled drug offences,Number,215
+PRA12C02,Did not re-offend within 1 year,2020,2020,11,Weapons and Explosives Offences,Number,66
+PRA12C02,Did not re-offend within 1 year,2020,2020,12,Damage to property and to the environment,Number,73
+PRA12C02,Did not re-offend within 1 year,2020,2020,13,Public order and other social code offences,Number,58
+PRA12C02,Did not re-offend within 1 year,2020,2020,14,Road and traffic offences (n.e.c.),Number,178
+PRA12C02,Did not re-offend within 1 year,2020,2020,15,"Offences against government, justice procedures and organisation of crime",Number,136
+PRA12C02,Did not re-offend within 1 year,2020,2020,16,Offences not elsewhere classified,Number,62
+PRA12C02,Did not re-offend within 1 year,2020,2020,200,All offences,Number,1610
+PRA12C02,Did not re-offend within 1 year,2021,2021,1,Homicide offences,Number,19
+PRA12C02,Did not re-offend within 1 year,2021,2021,2,Sexual offences,Number,117
+PRA12C02,Did not re-offend within 1 year,2021,2021,3,"Attempts/threats to murder, assaults, harassments and related offences",Number,238
+PRA12C02,Did not re-offend within 1 year,2021,2021,4,Dangerous or negligent acts,Number,70
+PRA12C02,Did not re-offend within 1 year,2021,2021,5,Kidnapping and related offences,Number,17
+PRA12C02,Did not re-offend within 1 year,2021,2021,6,"Robbery, extortion and hijacking offences",Number,20
+PRA12C02,Did not re-offend within 1 year,2021,2021,7,Burglary and related offences,Number,72
+PRA12C02,Did not re-offend within 1 year,2021,2021,8,Theft and related offences,Number,199
+PRA12C02,Did not re-offend within 1 year,2021,2021,9,"Fraud, deception and related offences",Number,43
+PRA12C02,Did not re-offend within 1 year,2021,2021,10,Controlled drug offences,Number,210
+PRA12C02,Did not re-offend within 1 year,2021,2021,11,Weapons and Explosives Offences,Number,39
+PRA12C02,Did not re-offend within 1 year,2021,2021,12,Damage to property and to the environment,Number,71
+PRA12C02,Did not re-offend within 1 year,2021,2021,13,Public order and other social code offences,Number,62
+PRA12C02,Did not re-offend within 1 year,2021,2021,14,Road and traffic offences (n.e.c.),Number,203
+PRA12C02,Did not re-offend within 1 year,2021,2021,15,"Offences against government, justice procedures and organisation of crime",Number,206
+PRA12C02,Did not re-offend within 1 year,2021,2021,16,Offences not elsewhere classified,Number,25
+PRA12C02,Did not re-offend within 1 year,2021,2021,200,All offences,Number,1611
+PRA12C03,Rate of re-offending within 1 year,2017,2017,1,Homicide offences,%,4
+PRA12C03,Rate of re-offending within 1 year,2017,2017,2,Sexual offences,%,10
+PRA12C03,Rate of re-offending within 1 year,2017,2017,3,"Attempts/threats to murder, assaults, harassments and related offences",%,44
+PRA12C03,Rate of re-offending within 1 year,2017,2017,4,Dangerous or negligent acts,%,41
+PRA12C03,Rate of re-offending within 1 year,2017,2017,5,Kidnapping and related offences,%,40
+PRA12C03,Rate of re-offending within 1 year,2017,2017,6,"Robbery, extortion and hijacking offences",%,58
+PRA12C03,Rate of re-offending within 1 year,2017,2017,7,Burglary and related offences,%,65
+PRA12C03,Rate of re-offending within 1 year,2017,2017,8,Theft and related offences,%,59
+PRA12C03,Rate of re-offending within 1 year,2017,2017,9,"Fraud, deception and related offences",%,30
+PRA12C03,Rate of re-offending within 1 year,2017,2017,10,Controlled drug offences,%,24
+PRA12C03,Rate of re-offending within 1 year,2017,2017,11,Weapons and Explosives Offences,%,59
+PRA12C03,Rate of re-offending within 1 year,2017,2017,12,Damage to property and to the environment,%,63
+PRA12C03,Rate of re-offending within 1 year,2017,2017,13,Public order and other social code offences,%,67
+PRA12C03,Rate of re-offending within 1 year,2017,2017,14,Road and traffic offences (n.e.c.),%,37
+PRA12C03,Rate of re-offending within 1 year,2017,2017,15,"Offences against government, justice procedures and organisation of crime",%,47
+PRA12C03,Rate of re-offending within 1 year,2017,2017,16,Offences not elsewhere classified,%,18
+PRA12C03,Rate of re-offending within 1 year,2017,2017,200,All offences,%,47
+PRA12C03,Rate of re-offending within 1 year,2018,2018,1,Homicide offences,%,15
+PRA12C03,Rate of re-offending within 1 year,2018,2018,2,Sexual offences,%,9
+PRA12C03,Rate of re-offending within 1 year,2018,2018,3,"Attempts/threats to murder, assaults, harassments and related offences",%,46
+PRA12C03,Rate of re-offending within 1 year,2018,2018,4,Dangerous or negligent acts,%,38
+PRA12C03,Rate of re-offending within 1 year,2018,2018,5,Kidnapping and related offences,%,40
+PRA12C03,Rate of re-offending within 1 year,2018,2018,6,"Robbery, extortion and hijacking offences",%,31
+PRA12C03,Rate of re-offending within 1 year,2018,2018,7,Burglary and related offences,%,57
+PRA12C03,Rate of re-offending within 1 year,2018,2018,8,Theft and related offences,%,58
+PRA12C03,Rate of re-offending within 1 year,2018,2018,9,"Fraud, deception and related offences",%,26
+PRA12C03,Rate of re-offending within 1 year,2018,2018,10,Controlled drug offences,%,28
+PRA12C03,Rate of re-offending within 1 year,2018,2018,11,Weapons and Explosives Offences,%,55
+PRA12C03,Rate of re-offending within 1 year,2018,2018,12,Damage to property and to the environment,%,63
+PRA12C03,Rate of re-offending within 1 year,2018,2018,13,Public order and other social code offences,%,63
+PRA12C03,Rate of re-offending within 1 year,2018,2018,14,Road and traffic offences (n.e.c.),%,43
+PRA12C03,Rate of re-offending within 1 year,2018,2018,15,"Offences against government, justice procedures and organisation of crime",%,56
+PRA12C03,Rate of re-offending within 1 year,2018,2018,16,Offences not elsewhere classified,%,14
+PRA12C03,Rate of re-offending within 1 year,2018,2018,200,All offences,%,48
+PRA12C03,Rate of re-offending within 1 year,2019,2019,1,Homicide offences,%,13
+PRA12C03,Rate of re-offending within 1 year,2019,2019,2,Sexual offences,%,15
+PRA12C03,Rate of re-offending within 1 year,2019,2019,3,"Attempts/threats to murder, assaults, harassments and related offences",%,42
+PRA12C03,Rate of re-offending within 1 year,2019,2019,4,Dangerous or negligent acts,%,38
+PRA12C03,Rate of re-offending within 1 year,2019,2019,5,Kidnapping and related offences,%,35
+PRA12C03,Rate of re-offending within 1 year,2019,2019,6,"Robbery, extortion and hijacking offences",%,46
+PRA12C03,Rate of re-offending within 1 year,2019,2019,7,Burglary and related offences,%,60
+PRA12C03,Rate of re-offending within 1 year,2019,2019,8,Theft and related offences,%,57
+PRA12C03,Rate of re-offending within 1 year,2019,2019,9,"Fraud, deception and related offences",%,35
+PRA12C03,Rate of re-offending within 1 year,2019,2019,10,Controlled drug offences,%,31
+PRA12C03,Rate of re-offending within 1 year,2019,2019,11,Weapons and Explosives Offences,%,50
+PRA12C03,Rate of re-offending within 1 year,2019,2019,12,Damage to property and to the environment,%,57
+PRA12C03,Rate of re-offending within 1 year,2019,2019,13,Public order and other social code offences,%,60
+PRA12C03,Rate of re-offending within 1 year,2019,2019,14,Road and traffic offences (n.e.c.),%,35
+PRA12C03,Rate of re-offending within 1 year,2019,2019,15,"Offences against government, justice procedures and organisation of crime",%,42
+PRA12C03,Rate of re-offending within 1 year,2019,2019,16,Offences not elsewhere classified,%,15
+PRA12C03,Rate of re-offending within 1 year,2019,2019,200,All offences,%,45
+PRA12C03,Rate of re-offending within 1 year,2020,2020,1,Homicide offences,%,20
+PRA12C03,Rate of re-offending within 1 year,2020,2020,2,Sexual offences,%,13
+PRA12C03,Rate of re-offending within 1 year,2020,2020,3,"Attempts/threats to murder, assaults, harassments and related offences",%,37
+PRA12C03,Rate of re-offending within 1 year,2020,2020,4,Dangerous or negligent acts,%,34
+PRA12C03,Rate of re-offending within 1 year,2020,2020,5,Kidnapping and related offences,%,20
+PRA12C03,Rate of re-offending within 1 year,2020,2020,6,"Robbery, extortion and hijacking offences",%,51
+PRA12C03,Rate of re-offending within 1 year,2020,2020,7,Burglary and related offences,%,54
+PRA12C03,Rate of re-offending within 1 year,2020,2020,8,Theft and related offences,%,52
+PRA12C03,Rate of re-offending within 1 year,2020,2020,9,"Fraud, deception and related offences",%,23
+PRA12C03,Rate of re-offending within 1 year,2020,2020,10,Controlled drug offences,%,24
+PRA12C03,Rate of re-offending within 1 year,2020,2020,11,Weapons and Explosives Offences,%,45
+PRA12C03,Rate of re-offending within 1 year,2020,2020,12,Damage to property and to the environment,%,53
+PRA12C03,Rate of re-offending within 1 year,2020,2020,13,Public order and other social code offences,%,60
+PRA12C03,Rate of re-offending within 1 year,2020,2020,14,Road and traffic offences (n.e.c.),%,34
+PRA12C03,Rate of re-offending within 1 year,2020,2020,15,"Offences against government, justice procedures and organisation of crime",%,48
+PRA12C03,Rate of re-offending within 1 year,2020,2020,16,Offences not elsewhere classified,%,13
+PRA12C03,Rate of re-offending within 1 year,2020,2020,200,All offences,%,41
+PRA12C03,Rate of re-offending within 1 year,2021,2021,1,Homicide offences,%,17
+PRA12C03,Rate of re-offending within 1 year,2021,2021,2,Sexual offences,%,6
+PRA12C03,Rate of re-offending within 1 year,2021,2021,3,"Attempts/threats to murder, assaults, harassments and related offences",%,39
+PRA12C03,Rate of re-offending within 1 year,2021,2021,4,Dangerous or negligent acts,%,36
+PRA12C03,Rate of re-offending within 1 year,2021,2021,5,Kidnapping and related offences,%,11
+PRA12C03,Rate of re-offending within 1 year,2021,2021,6,"Robbery, extortion and hijacking offences",%,57
+PRA12C03,Rate of re-offending within 1 year,2021,2021,7,Burglary and related offences,%,61
+PRA12C03,Rate of re-offending within 1 year,2021,2021,8,Theft and related offences,%,54
+PRA12C03,Rate of re-offending within 1 year,2021,2021,9,"Fraud, deception and related offences",%,23
+PRA12C03,Rate of re-offending within 1 year,2021,2021,10,Controlled drug offences,%,25
+PRA12C03,Rate of re-offending within 1 year,2021,2021,11,Weapons and Explosives Offences,%,49
+PRA12C03,Rate of re-offending within 1 year,2021,2021,12,Damage to property and to the environment,%,54
+PRA12C03,Rate of re-offending within 1 year,2021,2021,13,Public order and other social code offences,%,58
+PRA12C03,Rate of re-offending within 1 year,2021,2021,14,Road and traffic offences (n.e.c.),%,33
+PRA12C03,Rate of re-offending within 1 year,2021,2021,15,"Offences against government, justice procedures and organisation of crime",%,48
+PRA12C03,Rate of re-offending within 1 year,2021,2021,16,Offences not elsewhere classified,%,29
+PRA12C03,Rate of re-offending within 1 year,2021,2021,200,All offences,%,42
+PRA12C04,Rate of non re-offending within 1 year,2017,2017,1,Homicide offences,%,96
+PRA12C04,Rate of non re-offending within 1 year,2017,2017,2,Sexual offences,%,91
+PRA12C04,Rate of non re-offending within 1 year,2017,2017,3,"Attempts/threats to murder, assaults, harassments and related offences",%,56
+PRA12C04,Rate of non re-offending within 1 year,2017,2017,4,Dangerous or negligent acts,%,59
+PRA12C04,Rate of non re-offending within 1 year,2017,2017,5,Kidnapping and related offences,%,60
+PRA12C04,Rate of non re-offending within 1 year,2017,2017,6,"Robbery, extortion and hijacking offences",%,42
+PRA12C04,Rate of non re-offending within 1 year,2017,2017,7,Burglary and related offences,%,35
+PRA12C04,Rate of non re-offending within 1 year,2017,2017,8,Theft and related offences,%,41
+PRA12C04,Rate of non re-offending within 1 year,2017,2017,9,"Fraud, deception and related offences",%,70
+PRA12C04,Rate of non re-offending within 1 year,2017,2017,10,Controlled drug offences,%,76
+PRA12C04,Rate of non re-offending within 1 year,2017,2017,11,Weapons and Explosives Offences,%,41
+PRA12C04,Rate of non re-offending within 1 year,2017,2017,12,Damage to property and to the environment,%,37
+PRA12C04,Rate of non re-offending within 1 year,2017,2017,13,Public order and other social code offences,%,33
+PRA12C04,Rate of non re-offending within 1 year,2017,2017,14,Road and traffic offences (n.e.c.),%,63
+PRA12C04,Rate of non re-offending within 1 year,2017,2017,15,"Offences against government, justice procedures and organisation of crime",%,53
+PRA12C04,Rate of non re-offending within 1 year,2017,2017,16,Offences not elsewhere classified,%,82
+PRA12C04,Rate of non re-offending within 1 year,2017,2017,200,All offences,%,53
+PRA12C04,Rate of non re-offending within 1 year,2018,2018,1,Homicide offences,%,85
+PRA12C04,Rate of non re-offending within 1 year,2018,2018,2,Sexual offences,%,92
+PRA12C04,Rate of non re-offending within 1 year,2018,2018,3,"Attempts/threats to murder, assaults, harassments and related offences",%,54
+PRA12C04,Rate of non re-offending within 1 year,2018,2018,4,Dangerous or negligent acts,%,62
+PRA12C04,Rate of non re-offending within 1 year,2018,2018,5,Kidnapping and related offences,%,60
+PRA12C04,Rate of non re-offending within 1 year,2018,2018,6,"Robbery, extortion and hijacking offences",%,69
+PRA12C04,Rate of non re-offending within 1 year,2018,2018,7,Burglary and related offences,%,43
+PRA12C04,Rate of non re-offending within 1 year,2018,2018,8,Theft and related offences,%,42
+PRA12C04,Rate of non re-offending within 1 year,2018,2018,9,"Fraud, deception and related offences",%,74
+PRA12C04,Rate of non re-offending within 1 year,2018,2018,10,Controlled drug offences,%,72
+PRA12C04,Rate of non re-offending within 1 year,2018,2018,11,Weapons and Explosives Offences,%,45
+PRA12C04,Rate of non re-offending within 1 year,2018,2018,12,Damage to property and to the environment,%,37
+PRA12C04,Rate of non re-offending within 1 year,2018,2018,13,Public order and other social code offences,%,37
+PRA12C04,Rate of non re-offending within 1 year,2018,2018,14,Road and traffic offences (n.e.c.),%,57
+PRA12C04,Rate of non re-offending within 1 year,2018,2018,15,"Offences against government, justice procedures and organisation of crime",%,44
+PRA12C04,Rate of non re-offending within 1 year,2018,2018,16,Offences not elsewhere classified,%,86
+PRA12C04,Rate of non re-offending within 1 year,2018,2018,200,All offences,%,53
+PRA12C04,Rate of non re-offending within 1 year,2019,2019,1,Homicide offences,%,87
+PRA12C04,Rate of non re-offending within 1 year,2019,2019,2,Sexual offences,%,85
+PRA12C04,Rate of non re-offending within 1 year,2019,2019,3,"Attempts/threats to murder, assaults, harassments and related offences",%,59
+PRA12C04,Rate of non re-offending within 1 year,2019,2019,4,Dangerous or negligent acts,%,62
+PRA12C04,Rate of non re-offending within 1 year,2019,2019,5,Kidnapping and related offences,%,65
+PRA12C04,Rate of non re-offending within 1 year,2019,2019,6,"Robbery, extortion and hijacking offences",%,54
+PRA12C04,Rate of non re-offending within 1 year,2019,2019,7,Burglary and related offences,%,40
+PRA12C04,Rate of non re-offending within 1 year,2019,2019,8,Theft and related offences,%,43
+PRA12C04,Rate of non re-offending within 1 year,2019,2019,9,"Fraud, deception and related offences",%,66
+PRA12C04,Rate of non re-offending within 1 year,2019,2019,10,Controlled drug offences,%,69
+PRA12C04,Rate of non re-offending within 1 year,2019,2019,11,Weapons and Explosives Offences,%,50
+PRA12C04,Rate of non re-offending within 1 year,2019,2019,12,Damage to property and to the environment,%,43
+PRA12C04,Rate of non re-offending within 1 year,2019,2019,13,Public order and other social code offences,%,40
+PRA12C04,Rate of non re-offending within 1 year,2019,2019,14,Road and traffic offences (n.e.c.),%,65
+PRA12C04,Rate of non re-offending within 1 year,2019,2019,15,"Offences against government, justice procedures and organisation of crime",%,58
+PRA12C04,Rate of non re-offending within 1 year,2019,2019,16,Offences not elsewhere classified,%,85
+PRA12C04,Rate of non re-offending within 1 year,2019,2019,200,All offences,%,55
+PRA12C04,Rate of non re-offending within 1 year,2020,2020,1,Homicide offences,%,80
+PRA12C04,Rate of non re-offending within 1 year,2020,2020,2,Sexual offences,%,87
+PRA12C04,Rate of non re-offending within 1 year,2020,2020,3,"Attempts/threats to murder, assaults, harassments and related offences",%,63
+PRA12C04,Rate of non re-offending within 1 year,2020,2020,4,Dangerous or negligent acts,%,66
+PRA12C04,Rate of non re-offending within 1 year,2020,2020,5,Kidnapping and related offences,%,80
+PRA12C04,Rate of non re-offending within 1 year,2020,2020,6,"Robbery, extortion and hijacking offences",%,49
+PRA12C04,Rate of non re-offending within 1 year,2020,2020,7,Burglary and related offences,%,46
+PRA12C04,Rate of non re-offending within 1 year,2020,2020,8,Theft and related offences,%,48
+PRA12C04,Rate of non re-offending within 1 year,2020,2020,9,"Fraud, deception and related offences",%,77
+PRA12C04,Rate of non re-offending within 1 year,2020,2020,10,Controlled drug offences,%,77
+PRA12C04,Rate of non re-offending within 1 year,2020,2020,11,Weapons and Explosives Offences,%,56
+PRA12C04,Rate of non re-offending within 1 year,2020,2020,12,Damage to property and to the environment,%,47
+PRA12C04,Rate of non re-offending within 1 year,2020,2020,13,Public order and other social code offences,%,40
+PRA12C04,Rate of non re-offending within 1 year,2020,2020,14,Road and traffic offences (n.e.c.),%,66
+PRA12C04,Rate of non re-offending within 1 year,2020,2020,15,"Offences against government, justice procedures and organisation of crime",%,52
+PRA12C04,Rate of non re-offending within 1 year,2020,2020,16,Offences not elsewhere classified,%,87
+PRA12C04,Rate of non re-offending within 1 year,2020,2020,200,All offences,%,59
+PRA12C04,Rate of non re-offending within 1 year,2021,2021,1,Homicide offences,%,83
+PRA12C04,Rate of non re-offending within 1 year,2021,2021,2,Sexual offences,%,94
+PRA12C04,Rate of non re-offending within 1 year,2021,2021,3,"Attempts/threats to murder, assaults, harassments and related offences",%,61
+PRA12C04,Rate of non re-offending within 1 year,2021,2021,4,Dangerous or negligent acts,%,64
+PRA12C04,Rate of non re-offending within 1 year,2021,2021,5,Kidnapping and related offences,%,89
+PRA12C04,Rate of non re-offending within 1 year,2021,2021,6,"Robbery, extortion and hijacking offences",%,43
+PRA12C04,Rate of non re-offending within 1 year,2021,2021,7,Burglary and related offences,%,39
+PRA12C04,Rate of non re-offending within 1 year,2021,2021,8,Theft and related offences,%,46
+PRA12C04,Rate of non re-offending within 1 year,2021,2021,9,"Fraud, deception and related offences",%,77
+PRA12C04,Rate of non re-offending within 1 year,2021,2021,10,Controlled drug offences,%,75
+PRA12C04,Rate of non re-offending within 1 year,2021,2021,11,Weapons and Explosives Offences,%,51
+PRA12C04,Rate of non re-offending within 1 year,2021,2021,12,Damage to property and to the environment,%,46
+PRA12C04,Rate of non re-offending within 1 year,2021,2021,13,Public order and other social code offences,%,42
+PRA12C04,Rate of non re-offending within 1 year,2021,2021,14,Road and traffic offences (n.e.c.),%,67
+PRA12C04,Rate of non re-offending within 1 year,2021,2021,15,"Offences against government, justice procedures and organisation of crime",%,52
+PRA12C04,Rate of non re-offending within 1 year,2021,2021,16,Offences not elsewhere classified,%,71
+PRA12C04,Rate of non re-offending within 1 year,2021,2021,200,All offences,%,58
+PRA12C05,Total prisoners released,2017,2017,1,Homicide offences,Number,25
+PRA12C05,Total prisoners released,2017,2017,2,Sexual offences,Number,84
+PRA12C05,Total prisoners released,2017,2017,3,"Attempts/threats to murder, assaults, harassments and related offences",Number,342
+PRA12C05,Total prisoners released,2017,2017,4,Dangerous or negligent acts,Number,107
+PRA12C05,Total prisoners released,2017,2017,5,Kidnapping and related offences,Number,10
+PRA12C05,Total prisoners released,2017,2017,6,"Robbery, extortion and hijacking offences",Number,45
+PRA12C05,Total prisoners released,2017,2017,7,Burglary and related offences,Number,192
+PRA12C05,Total prisoners released,2017,2017,8,Theft and related offences,Number,593
+PRA12C05,Total prisoners released,2017,2017,9,"Fraud, deception and related offences",Number,64
+PRA12C05,Total prisoners released,2017,2017,10,Controlled drug offences,Number,240
+PRA12C05,Total prisoners released,2017,2017,11,Weapons and Explosives Offences,Number,105
+PRA12C05,Total prisoners released,2017,2017,12,Damage to property and to the environment,Number,138
+PRA12C05,Total prisoners released,2017,2017,13,Public order and other social code offences,Number,151
+PRA12C05,Total prisoners released,2017,2017,14,Road and traffic offences (n.e.c.),Number,277
+PRA12C05,Total prisoners released,2017,2017,15,"Offences against government, justice procedures and organisation of crime",Number,178
+PRA12C05,Total prisoners released,2017,2017,16,Offences not elsewhere classified,Number,49
+PRA12C05,Total prisoners released,2017,2017,200,All offences,Number,2600
+PRA12C05,Total prisoners released,2018,2018,1,Homicide offences,Number,26
+PRA12C05,Total prisoners released,2018,2018,2,Sexual offences,Number,82
+PRA12C05,Total prisoners released,2018,2018,3,"Attempts/threats to murder, assaults, harassments and related offences",Number,352
+PRA12C05,Total prisoners released,2018,2018,4,Dangerous or negligent acts,Number,82
+PRA12C05,Total prisoners released,2018,2018,5,Kidnapping and related offences,Number,15
+PRA12C05,Total prisoners released,2018,2018,6,"Robbery, extortion and hijacking offences",Number,42
+PRA12C05,Total prisoners released,2018,2018,7,Burglary and related offences,Number,190
+PRA12C05,Total prisoners released,2018,2018,8,Theft and related offences,Number,605
+PRA12C05,Total prisoners released,2018,2018,9,"Fraud, deception and related offences",Number,65
+PRA12C05,Total prisoners released,2018,2018,10,Controlled drug offences,Number,263
+PRA12C05,Total prisoners released,2018,2018,11,Weapons and Explosives Offences,Number,97
+PRA12C05,Total prisoners released,2018,2018,12,Damage to property and to the environment,Number,180
+PRA12C05,Total prisoners released,2018,2018,13,Public order and other social code offences,Number,198
+PRA12C05,Total prisoners released,2018,2018,14,Road and traffic offences (n.e.c.),Number,290
+PRA12C05,Total prisoners released,2018,2018,15,"Offences against government, justice procedures and organisation of crime",Number,219
+PRA12C05,Total prisoners released,2018,2018,16,Offences not elsewhere classified,Number,77
+PRA12C05,Total prisoners released,2018,2018,200,All offences,Number,2783
+PRA12C05,Total prisoners released,2019,2019,1,Homicide offences,Number,30
+PRA12C05,Total prisoners released,2019,2019,2,Sexual offences,Number,82
+PRA12C05,Total prisoners released,2019,2019,3,"Attempts/threats to murder, assaults, harassments and related offences",Number,419
+PRA12C05,Total prisoners released,2019,2019,4,Dangerous or negligent acts,Number,144
+PRA12C05,Total prisoners released,2019,2019,5,Kidnapping and related offences,Number,23
+PRA12C05,Total prisoners released,2019,2019,6,"Robbery, extortion and hijacking offences",Number,56
+PRA12C05,Total prisoners released,2019,2019,7,Burglary and related offences,Number,278
+PRA12C05,Total prisoners released,2019,2019,8,Theft and related offences,Number,813
+PRA12C05,Total prisoners released,2019,2019,9,"Fraud, deception and related offences",Number,84
+PRA12C05,Total prisoners released,2019,2019,10,Controlled drug offences,Number,440
+PRA12C05,Total prisoners released,2019,2019,11,Weapons and Explosives Offences,Number,131
+PRA12C05,Total prisoners released,2019,2019,12,Damage to property and to the environment,Number,222
+PRA12C05,Total prisoners released,2019,2019,13,Public order and other social code offences,Number,257
+PRA12C05,Total prisoners released,2019,2019,14,Road and traffic offences (n.e.c.),Number,536
+PRA12C05,Total prisoners released,2019,2019,15,"Offences against government, justice procedures and organisation of crime",Number,381
+PRA12C05,Total prisoners released,2019,2019,16,Offences not elsewhere classified,Number,130
+PRA12C05,Total prisoners released,2019,2019,200,All offences,Number,4026
+PRA12C05,Total prisoners released,2020,2020,1,Homicide offences,Number,20
+PRA12C05,Total prisoners released,2020,2020,2,Sexual offences,Number,95
+PRA12C05,Total prisoners released,2020,2020,3,"Attempts/threats to murder, assaults, harassments and related offences",Number,373
+PRA12C05,Total prisoners released,2020,2020,4,Dangerous or negligent acts,Number,71
+PRA12C05,Total prisoners released,2020,2020,5,Kidnapping and related offences,Number,15
+PRA12C05,Total prisoners released,2020,2020,6,"Robbery, extortion and hijacking offences",Number,59
+PRA12C05,Total prisoners released,2020,2020,7,Burglary and related offences,Number,180
+PRA12C05,Total prisoners released,2020,2020,8,Theft and related offences,Number,576
+PRA12C05,Total prisoners released,2020,2020,9,"Fraud, deception and related offences",Number,56
+PRA12C05,Total prisoners released,2020,2020,10,Controlled drug offences,Number,281
+PRA12C05,Total prisoners released,2020,2020,11,Weapons and Explosives Offences,Number,119
+PRA12C05,Total prisoners released,2020,2020,12,Damage to property and to the environment,Number,154
+PRA12C05,Total prisoners released,2020,2020,13,Public order and other social code offences,Number,146
+PRA12C05,Total prisoners released,2020,2020,14,Road and traffic offences (n.e.c.),Number,270
+PRA12C05,Total prisoners released,2020,2020,15,"Offences against government, justice procedures and organisation of crime",Number,261
+PRA12C05,Total prisoners released,2020,2020,16,Offences not elsewhere classified,Number,71
+PRA12C05,Total prisoners released,2020,2020,200,All offences,Number,2747
+PRA12C05,Total prisoners released,2021,2021,1,Homicide offences,Number,23
+PRA12C05,Total prisoners released,2021,2021,2,Sexual offences,Number,125
+PRA12C05,Total prisoners released,2021,2021,3,"Attempts/threats to murder, assaults, harassments and related offences",Number,389
+PRA12C05,Total prisoners released,2021,2021,4,Dangerous or negligent acts,Number,109
+PRA12C05,Total prisoners released,2021,2021,5,Kidnapping and related offences,Number,19
+PRA12C05,Total prisoners released,2021,2021,6,"Robbery, extortion and hijacking offences",Number,46
+PRA12C05,Total prisoners released,2021,2021,7,Burglary and related offences,Number,183
+PRA12C05,Total prisoners released,2021,2021,8,Theft and related offences,Number,435
+PRA12C05,Total prisoners released,2021,2021,9,"Fraud, deception and related offences",Number,56
+PRA12C05,Total prisoners released,2021,2021,10,Controlled drug offences,Number,281
+PRA12C05,Total prisoners released,2021,2021,11,Weapons and Explosives Offences,Number,76
+PRA12C05,Total prisoners released,2021,2021,12,Damage to property and to the environment,Number,156
+PRA12C05,Total prisoners released,2021,2021,13,Public order and other social code offences,Number,147
+PRA12C05,Total prisoners released,2021,2021,14,Road and traffic offences (n.e.c.),Number,303
+PRA12C05,Total prisoners released,2021,2021,15,"Offences against government, justice procedures and organisation of crime",Number,396
+PRA12C05,Total prisoners released,2021,2021,16,Offences not elsewhere classified,Number,35
+PRA12C05,Total prisoners released,2021,2021,200,All offences,Number,2779

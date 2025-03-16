@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <head>
+        
+        <title>Form</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <script src="menu_bar.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.4.0/firebase.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+        <script src="https://unpkg.com/chart.js@4.4.0/dist/chart.umd.js"></script>
+        
+    </head>
+
+    <body>
+        <header>
+            <div class="menu_and_header">
+                <div class="header-top">
+
+                    <img class="pl-header-logo" src="images/pl-main-logo.png" alt="Premier League Logo">
+
+                    <div class="hamburger-container" onclick="menu_bar_transform(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+
+                    <h0>Fantasy Premier League Stats</h0>
+
+                </div>
+                
+                <nav id="menu">
+
+                    <ul id="internal_links" class="internal_links fade-out">
+                        <li><a href="info.html" class="link-list-element">Info Page</a></li>
+                        <li><a href="visualisations.html" class="link-list-element">Visualisations</a></li>
+                        <li><a href="form.html" class="link-list-element">Form and results</a></li>
+                        <li><a href="recommendations.html" class="link-list-element">Recommendations</a></li>
+                    </ul>
+
+                </nav>
+            </div>
+        </header>
+        
+        <form id="user_data" class="form-container">
+            <h2>Form</h2>
+
+            <label for="favourite_team">Which Premier League Team is your favourite?</label> <br>
+            <input list="teams" id="favourite_team" name="favourite_team" required> <!-- datatype: string/text -->
+            <datalist id="teams">
+                <option value="Arsenal">
+                <option value="Aston Villa">
+                <option value="Bournemouth">
+                <option value="Brentford">
+                <option value="Brighton and Hove Albion">
+                <option value="Chelsea">
+                <option value="Crystal Palace">
+                <option value="Everton">
+                <option value="Fulham">
+                <option value="Ipswich Town">
+                <option value="Leicester City">
+                <option value="Liverpool">
+                <option value="Manchester City">
+                <option value="Manchester United">
+                <option value="Newcastle">
+                <option value="Nottingham Forest">
+                <option value="Southampton">
+                <option value="Tottenham Hotspur">
+                <option value="West Ham United">
+                <option value="Wolverhampton Wanderers">
+            </datalist>
+            <br><br>
+            
+            <label>How would you rate this website from 1 to 5</label><br> <!-- datatype: integer/numerical -->
+            <input type="radio" id="rating1" name="user_rating" value="1" required>
+            <label for="1">1</label><br>
+            <input type="radio" id="rating2" name="user_rating" value="2" required>
+            <label for="2">2</label><br>
+            <input type="radio" id="rating3" name="user_rating" value="3" required>
+            <label for="3">3</label><br>
+            <input type="radio" id="rating4" name="user_rating" value="4" required>
+            <label for="4">4</label><br>
+            <input type="radio" id="rating5" name="user_rating" value="5" required>
+            <label for="5">5</label><br><br>
+                
+
+            <label>Do you watch the Premier League?</label><br> <!-- datatype: boolean -->
+            <input type="radio" id="yes_watch" name="watching" value="yes" required>
+            <label for="yes">Yes</label><br>
+            <input type="radio" id="no_watch" name="watching" value="no" required>
+            <label for="no">No</label><br><br>
+            
+            <div id="time_watching_input"> <!-- datatype: float/numerical -->
+                <label for="years_watching">For how many years have you been watching the Premier League</label>
+                <input id="years_watching" name="years_watching">
+            </div><br>
+
+            <label>Are you playing Fantasy Premier League this week?</label> <br> <!-- datatype: boolean -->
+            <input type="radio" id="yes_playing" name="playing_this_week" value="yes" required>
+            <label for="yes">Yes</label><br>
+            <input type="radio" id="no_playing" name="playing_this_week" value="no" required>
+            <label for="no">No</label><br><br>
+
+            <!-- the captaincy input field is hidden by default -->
+            <div id="captaincy_input">
+                <label for="captain">Who have you given your captaincy to this week?</label> <br> <!-- datatype: string/text -->
+                <input list="captains" id="captain" name="captain">
+                <datalist id="captains">
+                    <!-- this datalist will be filled by form.js -->
+                </datalist>
+            </div><br>
+
+            <button type="submit" id="submit-data">Submit</button>
+        </form>
+
+        <script src="form.js"></script>
+
+        <div class="centred"><h1>Summary of poll results</h1></div>
+        <div class="pie-chart-container">
+            <h2 id="pie-chart-placeholder">Submit form to see results.</h2>
+            <canvas id="favourite_team_chart" class="pie-charts"></canvas>
+            <canvas id="watching_chart" class="pie-charts"></canvas>
+            <canvas id="captains_chart" class="pie-charts"></canvas>
+        </div>
+
+    </body>
+
+
+
+</html>
