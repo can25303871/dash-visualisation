@@ -17,6 +17,8 @@ df_managers = pd.read_csv("artefact\\managers.csv")
 
 # this initialises the Dash app
 app = dash.Dash(__name__)
+server = app.server
+
 
 # I start by defining the layout of the app
 app.layout = html.Div([
