@@ -51,7 +51,7 @@ df_players.loc[:, 'element_type'] = df_players['element_type'].replace({'GK': 'G
 df_players = df_players.assign(goal_involvements = df_players['assists']+df_players['goals_scored'])
 
 # this initialises the Dash app
-app = dash.Dash(__name__, external_stylesheets=['styles.css'])
+app = dash.Dash(__name__, external_stylesheets=['/assets/styles.css'])
 server = app.server
 
 # I start by defining the layout of the app
