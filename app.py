@@ -10,10 +10,10 @@ from plotly.subplots import make_subplots
 # I created this file in "data_extraction_and_manipulation.py"
 # it contains player statistics, from the origninal "players_raw.csv" file, but also team name and colour information, which I added in
 # I also removed all managers from the file and saved them to "managers.csv", which I import below
-df_players = pd.read_csv("artefact\\players_only_no_managers.csv")
+df_players = pd.read_csv("players_only_no_managers.csv")
 
 # this is the file that contains the extracted manager statistics and information
-df_managers = pd.read_csv("artefact\\managers.csv")
+df_managers = pd.read_csv("managers.csv")
 
 # this initialises the Dash app
 app = dash.Dash(__name__)
