@@ -1,0 +1,253 @@
+@font-face {
+  font-family: 'PremierLeague-Bold';
+  src: local('PremierLeague-Bold'), local('PremierLeague-Bold'),
+    url('PremierLeague-Bold.ttf') format('truetype');
+}  
+
+* {
+    font-family: 'PremierLeague-Bold', PremierSans-Regular, Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+html{
+  font-family: 'PremierLeague-Bold', PremierSans-Regular, Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+h0 {
+  margin: 0; 
+  font-size: 30pt;
+  color: white;
+}
+
+body {
+  color: black;
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-bottom: 100px;
+}
+
+body a {
+  color: black;
+}
+
+.indented-block {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.menu_and_header {
+  width: calc(100vw - 40px); /* this accounts for the padding, so the element doesn't end up being wider than the screen/viewport */
+  position: relative;
+  left: calc(-50vw + 50%); /* this allows the element to touch either edge of the screen/viewport, ignoring the margin from <body> */
+  background-color: #37003c;
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
+  padding: 20px;
+  margin: 10px auto; 
+  transition: height 0.3s ease; /* this is part of the fading-in/out animation */
+  overflow: hidden; 
+}
+
+.header-top {
+  display: flex; /* this is so that the logo, hamburger button, and heading are side-by-side instead of on top of each other */
+  align-items: center; 
+  width: 100%; 
+}
+
+.pl-header-logo {
+  height: 112px;
+  width: auto;
+  margin-right: 16px; 
+}
+
+.hamburger-container {
+  display: inline-block;
+  cursor: pointer;
+  padding: 1%;
+  margin-right: 10px; 
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+
+nav {
+  display: block;
+  width: 100%;
+}
+
+.link-list-element {
+  margin: .5%;
+  padding: .5%;
+  line-height: 2;
+  color: white;
+}
+
+.link-list-element:hover {
+  background-color: white;
+  color: #37003c;
+}
+
+.internal_links {
+  padding: 2%;
+  list-style-type: square;
+  list-style-position: inside;
+  background-color: #973cff;
+  border-radius: 1.6rem;
+  box-sizing: border-box;
+  margin: auto;
+  opacity: 0; /* starting hidden */
+  visibility: hidden; /* starting invisible */
+  display: none;
+  transition: opacity 0.7s ease, visibility 0.7s ease; /* fading in gradually */
+}
+
+/* Animation classes */
+#internal_links.pre-fade-in {
+  display: block; 
+  visibility: hidden; 
+  opacity: 0; 
+}
+
+#internal_links.fade-in {
+  display: block;
+  opacity: 1; 
+  visibility: visible; 
+  transition: opacity 0.4s ease, visibility 0.4s ease; /* fading in gradually */
+}
+
+#internal_links.fade-out {
+  opacity: 0; 
+  visibility: hidden; 
+  display: none;
+}
+
+.graphs {
+  background-color: white;
+  width: 100%;
+  height: 1016px;
+  border: .1rem solid #5f3363;
+  margin: 0 auto;
+  padding: 0;
+  display: block;
+  border-radius: 1.6rem;
+}
+
+.small-graph {
+  background-color: white;
+  width: 1000px;
+  height: 600px;
+  border: .1rem solid #5f3363;
+  margin: 0 auto;
+  padding: 0;
+  display: block;
+  border-radius: 1.6rem;
+}
+
+
+.FDR-explained {
+  background-color: #4b1a50;
+  color: white;
+  font-size: large;
+  padding: 20px 50px;
+  border-radius: 1.6rem;
+  border: .1rem solid #5f3363;
+}
+
+.data-source {
+  margin: 5px;
+  text-align: center;
+  display: block;
+}
+
+form {
+  margin: 0 auto; 
+  padding-bottom: 10vh;
+  color: white;
+}
+
+/* the input field for captains and time watching is hidden by default, unless the user clicks that they are playing this week or do watch the Premier League */
+#captaincy_input, #time_watching_input {
+  display: none;
+}
+
+.form-container {
+  background-color: #4b1a50; 
+  border: .1rem solid #5f3363; 
+  border-radius: 1.6rem; 
+  padding: 20px; 
+  margin: 20px auto; 
+  width: 33%;  
+  text-align: center; 
+}
+
+.pie-chart-container {
+  display: flex; /* this allows me to align charts horizontally */
+  justify-content: space-between; 
+  align-items: center; 
+  width: inherit; 
+  margin: 0 auto; 
+  padding: 10px; 
+  background-color: #4b1a50;  
+  border: .1rem solid #5f3363;  
+  border-radius: 1.6rem;  
+  padding: 20px;
+}
+
+.pie-chart-container canvas {
+  border-radius: 1.6rem;
+  border: .1rem solid #5f3363;
+}
+
+.pie-charts {
+  width: 30% !important; 
+  height: auto !important;
+  aspect-ratio: 1/1 !important; /* I'm making sure that the charts remain square */
+  background-color: white;
+  display: none; 
+  margin: 0 5px; 
+}
+
+#pie-chart-placeholder {
+  margin: auto;
+  color: white;
+  text-align: center;
+}
+
+.centred { /* this is used for centring various different elements, instead of defining new rules for each */
+  margin: auto;
+  text-align: center;
+}
+
+.visualisation-explanation-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.visualisation-explanation {
+  color: white;
+  background-color: #4b1a50;
+  border-radius: 1.6rem;
+  border: .1rem solid #5f3363;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
