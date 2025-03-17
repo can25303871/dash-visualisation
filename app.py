@@ -50,23 +50,6 @@ df_players = df_with_teams[(df_with_teams['element_type'] != 'AM')]
 df_players.loc[:, 'element_type'] = df_players['element_type'].replace({'GK': 'Goalkeeper', 'DEF': 'Defender', 'MID': 'Midfielder', 'FWD': 'Forward'})
 df_players = df_players.assign(goal_involvements = df_players['assists']+df_players['goals_scored'])
 
-# here I'm merging df_fixtures with df_teams based on the columns 'team_h' and 'id'
-# this effectively adds new columns to df_fixtures with the team name and colour for the home team
-df_fixtures = pd.merge(df_fixtures,df_teams[['id', 'name', 'team_colour']], left_on='team_h', right_on='id', how='left')
-
-# here I'm renaming the 'name' column to 'team_h_name', this follows on from the above line
-df_fixtures.rename(columns={'name': 'team_h_name', 'team_colour': 'team_h_colour'}, inplace=True)
-
-# here I'm merging df_fixtures with df_teams based on the columns 'team_a' and 'id'
-# this is for away teams, but apart from that is the same as the earlier similar line
-df_fixtures = pd.merge(df_fixtures,df_teams[['id', 'name', 'team_colour']], left_on='team_a', right_on='id', how='left')
-
-# here I'm renaming the 'name' column to 'team_h_name'
-df_fixtures.rename(columns={'name': 'team_a_name', 'team_colour': 'team_a_colour'}, inplace=True)
-
-# here I'm saving a new fixtures file which includes team names and colours, for use in the recommendation
-df_fixtures.to_csv("fixtures_with_teams.csv", index=False)
-
 # this initialises the Dash app
 app = dash.Dash(__name__)
 server = app.server
