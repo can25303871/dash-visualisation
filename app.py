@@ -280,4 +280,6 @@ def update_visualisations(selected_team):
 
 # this runs the app
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    # I'm using the PORT environment variable provided by Render
+    port = int(os.environ.get("PORT", 8050))
+    app.run_server(host="0.0.0.0", port=port, debug=False)
