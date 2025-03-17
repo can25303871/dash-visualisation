@@ -62,19 +62,30 @@ app.layout = html.Div([
         value=None,
         placeholder="Select a team to filter by"
     ),
+    dcc.Dropdown(
+        id='position-filter',
+        options=[{'label': position, 'value': position} for position in df_players['element_type'].unique()],
+        value=None,
+        placeholder="Select a position to filter by"
+    ),
     dcc.Graph(id='visualisations')
 ])
 
-# this is the callback to update the visualizations based on the selected team
+# this is the callback to update the visualisations based on the selected team and position
 @app.callback(
     Output('visualisations', 'figure'),
-    [Input('team-filter', 'value')]
+    [Input('team-filter', 'value'),
+     Input('position-filter', 'value')]
 )
-def update_visualisations(selected_team):
+
+def update_visualisations(selected_team, selected_position):
     if selected_team:
         filtered_df_players = df_players[df_players['name'] == selected_team]
     else:
         filtered_df_players = df_players
+
+    if selected_position:
+        filtered_df_players = filtered_df_players[filtered_df_players['element_type'] == selected_position]
 
     # here I'm creating a subplot grid (so that I can display multiple plots side by side) and naming each subplot
     # I have also set the bottom right plot to be empty, but doubled the width of the bottom middle plot, so it takes up the space of two plots
@@ -315,5 +326,6 @@ def update_visualisations(selected_team):
 # this runs the app
 if __name__ == '__main__':
     # I'm using the PORT environment variable provided by Render
+    # this is for the web implementation of my app
     port = int(os.environ.get("PORT", 8050))
     app.run_server(host="0.0.0.0", port=port, debug=False)
