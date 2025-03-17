@@ -4,6 +4,10 @@
     url('PremierLeague-Bold.ttf') format('truetype');
 }  
 
+* {
+    font-family: 'PremierLeague-Bold', PremierSans-Regular, Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
 html{
   font-family: 'PremierLeague-Bold', PremierSans-Regular, Arial, Helvetica Neue, Helvetica, sans-serif;
 }
