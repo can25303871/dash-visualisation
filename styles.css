@@ -1,21 +1,36 @@
 @font-face {
+  font-family: 'PremierLeague-Regular';
+  src: local('PremierLeague-Regular'), local('PremierLeague-Regular'),
+      url('PremierLeague-Regular.ttf') format('truetype'); /* this is the Premier League font */
+}
+
+@font-face {
   font-family: 'PremierLeague-Bold';
   src: local('PremierLeague-Bold'), local('PremierLeague-Bold'),
     url('PremierLeague-Bold.ttf') format('truetype');
 }  
 
 * {
-    font-family: 'PremierLeague-Bold', PremierSans-Regular, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'PremierLeague-Regular', PremierSans-Regular, Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+* b, * strong{
+  font-family: 'PremierLeague-Bold', PremierSans-Bold, Arial, Helvetica Neue, Helvetica, sans-serif;
 }
 
 html{
-  font-family: 'PremierLeague-Bold', PremierSans-Regular, Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-family: 'PremierLeague-Regular', PremierSans-Regular, Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+b, strong {
+  font-family: 'PremierLeague-Bold', PremierSans-Bold, Arial, Helvetica Neue, Helvetica, sans-serif;
 }
 
 h0 {
   margin: 0; 
   font-size: 30pt;
   color: white;
+  font-family: 'PremierLeague-Bold', PremierSans-Bold, Arial, Helvetica Neue, Helvetica, sans-serif;
 }
 
 body {
