@@ -73,7 +73,7 @@ if (yesWatchRadio && noWatchRadio && time_watching_input) {
 
 // Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyDttowksX0CuiezjcjmgdTSSIYmxAW-EW8",
+    apiKey: "####",
     authDomain: "lc-comp-sci-project.firebaseapp.com",
     databaseURL: "https://lc-comp-sci-project-default-rtdb.europe-west1.firebasedatabase.app",
     projectId: "lc-comp-sci-project",
