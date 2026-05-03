@@ -1,0 +1,89 @@
+df_players_managers = LOAD players_raw.csv
+
+df_positions = LOAD cleaned_players.csv
+
+df_teams = LOAD teams.csv
+
+df_fixtures = LOAD fixtures.csv
+
+df_players_managers COLUMN 'element_type' = df_positions COLUMN 'element_type'
+    SAVE df_players_managers to players_with_positions.csv
+
+ASSIGN_COLUMN called 'team_colour' to df_teams
+
+df_with_teams = MERGE df_players_managers and df_teams based on team-code , also add colours
+
+df_managers = FILTER df_with_teams to have only managers
+
+df_managers = FILTER df_with_teams to have no managers
+
+REPLACE positions in df_players 'GK'->'Goalkeeper', 'DEF'->'Defender', 'MID'->'Midfielder', 'FWD'->'Forward'
+
+ASSIGN a new COLUMN to df_players  called 'goal_involvements' which is 'assists'+'goals_scored'
+
+MERGE df_fixtures with df_teams based on home-team-code and team-code, add team-names and team-colours
+
+RENAME team-names->home-team-names, team-colours->home-team-colours
+
+MERGE df_fixtures with df_teams based on away-team-code and team-code, add team-names and team-colours
+
+RENAME team-names->home-team-names, team-colours->away-team-colours
+
+SAVE df_fixtures to fixtures_with_teams.csv
+
+
+team_names = df_players COLUMN 'name'
+player_names = df_players COLUMN 'web_name'
+positions = df_players COLUMN 'element_type'
+team_colours = df_players COLUMN 'team_colour'
+price = (df_players COLUMN 'now_cost') /10
+
+MAKE a 2x3 grid of subplots, name them, set bottom middle plot to be double width
+
+exp_goals = df_players COLUMN 'expected_goals'
+goals_scored = df_players COLUMN 'goals_scored'
+
+PLOT scatterplot x=exp_goals, y=goals_scored
+MAKE hover-template with name,team,position,price
+apply LABELS to axes
+MAKE and PLOT trendline
+
+total_points = df_players COLUMN 'total_points'
+
+PLOT scatterplot x=price, y=total_points
+MAKE hover-template with name,team,position,price
+apply LABELS to axes
+MAKE and PLOT trendline
+
+top_10_most_expensive_players_unordered = FILTER out all non-top-10 players
+top_10_most_expensive_players = ORDER-BY-Price top_10_most_expensive_players_unordered
+
+names_top_10_most_expensive_players = top_10_most_expensive_players COLUMN 'web_name'
+team_names_top_10 = top_10_most_expensive_players COLUMN 'name'
+positions_top_10 = top_10_most_expensive_players COLUMN 'element_type'
+team_colours_top_10 = top_10_most_expensive_players COLUMN 'team_colour'
+top_10_expected_goal_involvements = top_10_most_expensive_players COLUMN 'expected_goal_involvements'
+top_10_actual_goal_involvements = top_10_most_expensive_players COLUMN 'goal_involvements'
+price_top_10 = (top_10_most_expensive_players COLUMN 'now_cost') /10
+
+(on same plot)
+    PLOT barchart x=names_top_10_most_expensive_players, y=top_10_actual_goal_involvements
+    PLOT barchart x=names_top_10_most_expensive_players, y=top_10_expected_goal_involvements
+
+form = df_players COLUMN 'form'
+ownership_percentage = df_players COLUMN 'selected_by_percent'
+
+PLOT scatterplot x=ownership_percentage, y=form
+MAKE hover-template with name,team,position,price
+apply LABELS to axes
+MAKE and PLOT trendline
+
+manager_points = df_managers COLUMN 'total_points'
+manager_names = df_managers COLUMN'web_name'
+manager_teams = df_managers COLUMN'name'
+manager_colours = df_managers COLUMN'team_colour'
+manager_price = (df_managers COLUMN 'now_cost')/10
+PLOT barchart x=manager_names, y=manager_points
+
+SAVE plots to plot_from_plotly.html
+SHOW plots in the browser

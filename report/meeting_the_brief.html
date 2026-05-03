@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Meeting the brief</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <script src="menu_bar.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="menu_and_header">
+                <div class="header-top">
+
+                    <img class="pl-header-logo" src="images/pl-main-logo.png" alt="Premier League Logo">
+
+                    <div class="hamburger-container" onclick="menu_bar_transform(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+
+                    <h0>Fantasy Premier League Stats: Report</h0>
+
+                </div>
+                
+                <nav id="menu">
+
+                    <ul id="internal_links" class="internal_links fade-out">
+                        <li><a href="index.html" class="link-list-element">Home</a></li>
+                        <li><a href="meeting_the_brief.html" class="link-list-element">Meeting the brief</a></li>
+                        <li><a href="investigation.html" class="link-list-element">Investigation</a></li>
+                        <li><a href="plan_and_design.html" class="link-list-element">Plan and design</a></li>
+                        <li><a href="create.html" class="link-list-element">Create</a></li>
+                        <li><a href="evaluation.html" class="link-list-element">Evaluation</a></li>
+                        <li><a href="references.html" class="link-list-element">References</a></li>
+                    </ul>
+
+                </nav>
+            </div>
+        </header>
+
+        <h1>Meeting the brief</h1>
+
+        <h1>Video</h1>
+        <iframe src="images/fpl-stats-video.mp4" class="meeting_the_brief_video" controls allowfullscreen></iframe>
+        <br>
+        <p>
+            Dash app: When app.py is run, it generates a local instance of the dash app, which works perfectly within its own webpage. 
+            The issue is that it can't be included in another webpage, for example using iframes. 
+            To solve this the app is hosted externally on render.com and the iframe contains the URL. 
+            Render required me to push the code for my app to a github repository https://github.com/can25303871/dash-visualisation. 
+            This code contains a direct link to the original dataset, which is updated weekly, 
+            which can be done as the external server will always have an internet connection. 
+            Because it links directly to the original data source, I need to perform data extraction and manipulation within the app file. 
+            I simply copied the code from "data_extraction_and_manipulation.py" . 
+            Display of the dash charts: By default, the local chart is displayed. 
+            My javascript (update-graphs.js) checks if there is an internet connection. If there is, it loads the external app. 
+            This can come with a delay, owing to the capabilities of the free render hosting.
+        </p>
+
+    </body>
+</html>

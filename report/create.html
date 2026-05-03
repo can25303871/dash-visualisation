@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Create</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <script src="menu_bar.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="menu_and_header">
+            <div class="header-top">
+
+                <img class="pl-header-logo" src="images/pl-main-logo.png" alt="Premier League Logo">
+
+                <div class="hamburger-container" onclick="menu_bar_transform(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+
+                <h0>Fantasy Premier League Stats: Report</h0>
+
+            </div>
+
+            <nav id="menu">
+
+                <ul id="internal_links" class="internal_links fade-out">
+                    <li><a href="index.html" class="link-list-element">Home</a></li>
+                    <li><a href="meeting_the_brief.html" class="link-list-element">Meeting the brief</a></li>
+                    <li><a href="investigation.html" class="link-list-element">Investigation</a></li>
+                    <li><a href="plan_and_design.html" class="link-list-element">Plan and design</a></li>
+                    <li><a href="create.html" class="link-list-element">Create</a></li>
+                    <li><a href="evaluation.html" class="link-list-element">Evaluation</a></li>
+                    <li><a href="references.html" class="link-list-element">References</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+
+    <h1>Create</h1>
+    <br>
+    <h2>Progress Log</h2>
+
+    <table>
+        <tr>
+            <td colspan="2" class="table-titles">
+                <p>Week 1</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>What I Did / What didn't work:</p>
+            </td>
+            <td>
+                <ul>
+                    <li>I made a google form and circulated it among friends in my year.</li>
+                    <li>I started reading the pandas and plotly documentation.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>Plan for next week</p>
+            </td>
+            <td>
+                <ul>
+                    <li>Examine form results and pick a dataset. Use the form results to decide what direction to take
+                        my project in</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="table-titles">
+                <p>Week 2</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>What I Did / What didn't work:</p>
+            </td>
+            <td>
+                <ul>
+                    <li>I looked at their responses to my form questions. They mentioned several websites and social
+                        media accounts that they use to advise them on FPL. This was very useful as I could take
+                        inspiration from some of these websites and it gave me a starting point for my own project.</li>
+                    <li>I found a dataset covering the Premier League, as well as the game “Fantasy Premier League”,
+                        this is a game that I already played where the user selects a virtual team of Premier League
+                        players and scores points based on the players' performance in real-life Premier League matches.
+                    </li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>Plan for next week</p>
+            </td>
+            <td>
+                <ul>
+                    <li>Use pandas to import and manipulate the dataset.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="table-titles">
+                <p>Week 3</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>What I Did / What didn't work:</p>
+            </td>
+            <td>
+                <ul>
+                    <li>I inspected the data and started using pandas to manipulate it.</li>
+                    <li>The data was perfect, with no errors, omissions or missing values, so I added mistakes and
+                        missing values to the data, to test my data cleaning code.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>Plan for next week</p>
+            </td>
+            <td>
+                <ul>
+                    <li>Create basic graphs and charts using plotly.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="table-titles">
+                <p>Week 4</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>What I Did / What didn't work:</p>
+            </td>
+            <td>
+                <ul>
+                    <li>I used pandas to select certain rows from the dataset and graph them.</li>
+                    <li>I used plotly to create a basic graph of expected goals versus goals scored.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>Plan for next week</p>
+            </td>
+            <td>
+                <ul>
+                    <li>Create a web interface to view the charts.</li>
+                    <li>Add hover-labels to the chart so that users can see the player name when hovering.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="table-titles">
+                <p>Week 5</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>What I Did / What didn't work:</p>
+            </td>
+            <td>
+                <ul>
+                    <li>I created a basic webpage in html and pasted in the code from the plotly-generated html. I found
+                        this was very tedious so I switched to using an iframe with the source as the plotly chart.</li>
+                    <li>Using hover-templates, the scatter points and bars now display player names when moused over.
+                    </li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>Plan for next week</p>
+            </td>
+            <td>
+                <ul>
+                    <li>Make a form which submits to firebase.</li>
+                    <li>Write the information about the dataset.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="table-titles">
+                <p>Week 6</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>What I Did / What didn't work:</p>
+            </td>
+            <td>
+                <ul>
+                    <li>I created a form which sends data to firebase. The form includes two datalists. One of them is
+                        Premier League team names, I defined these myself. But the other list needs to include all the
+                        Premier League players.</li>
+                    <li>The fixtures file contained team codes for home and away teams, but not team names. The teams
+                        file contained team names and codes. I used this to add team names and colours to the fixtures
+                        file.</li>
+                    <li>I wrote up the information about the dataset.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>Plan for next week</p>
+            </td>
+            <td>
+                <ul>
+                    <li>Retrieve the data from firebase and plot it using chart.js.</li>
+                    <li>The players dataset also contains team codes. I want to use these to assign team colours to the
+                        players, then use these to colour in the scatterplots.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="table-titles">
+                <p>Week 7</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>What I Did / What didn't work:</p>
+            </td>
+            <td>
+                <ul>
+                    <li>I used plotly to make a new set of graphs. I read the documentation about hover-templates and
+                        implemented them on all my graphs. This allowed me to display far more information and negated
+                        the need for a legend. I was able to display player names, positions and teams in the
+                        hover-labels.</li>
+                    <li>To use chart.js, I had to change the structure of my realtime database. Initially, I was
+                        submitting all the user data together, separated by user. This would have made the logic for the
+                        charts far more difficult. My new structure involves single entries for each option, with a
+                        count branch that is updated with every form submission. This means that I can fetch the count
+                        values and graph them directly, making my graphing code quite simple.</li>
+                    <li>I also defined colours for the favourite teams chart. First I used the same colours as the
+                        scatter plots, but I found that there were too many similar shades of red and blue next to each
+                        other. I tried to add stripes using patternomaly, but this would not allow me to set the colour
+                        of the secondary stripes, so I used html canvas methods to set a striped background colour
+                        instead.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>Plan for next week</p>
+            </td>
+            <td>
+                <ul>
+                    <li>Add team names and colours to the players dataframe.</li>
+                    <li>Add dynamic hiding and revealing of inputs to the form.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="table-titles">
+                <p>Week 8</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>What I Did / What didn't work:</p>
+            </td>
+            <td>
+                <ul>
+                    <li>I used pandas to add team names and colours to the players dataframe, then used the names in the
+                        hover labels, and the colours for the colours of the scatter points.</li>
+                    <li>I wrote javascript and css to dynamically unhide the years-watching and selected-captain inputs.
+                    </li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>Plan for next week</p>
+            </td>
+            <td>
+                <ul>
+                    <li>Use dash to add the ability to filter data for my plots.</li>
+                    <li>Write the code for the recommendation.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="table-titles">
+                <p>Week 9</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>What I Did / What didn't work:</p>
+            </td>
+            <td>
+                <ul>
+                    <li>Again using pandas, I created visualisations for the recommendation, and a writeup interpreting
+                        these visualisations.</li>
+                    <li>Using dash, I added two dropdowns to my visualisations, which allowed me to filter data by
+                        player and club. This worked well on a local instance, but could not be used in a webpage. I had
+                        to host it on an external server. Render was the best free option.</li>
+                    <li>I found posts on the plotly forum explaining how to build and start a render server, and
+                        followed these instructions.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>Plan for next week</p>
+            </td>
+            <td>
+                <ul>
+                    <li>Finish off video and report.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="table-titles">
+                <p>Week 10</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>What I Did / What didn't work:</p>
+            </td>
+            <td>
+                <ul>
+                    <li>I finished editing my video.</li>
+                    <li>I finished my writeup in html.</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <h2>Gantt chart of project timeline</h2>
+    <div class="image-container">
+        <img src="images/gantt-chart.png" alt="Gantt Chart" class="gantt-chart">
+    </div>
+
+    <br>
+    <h2>Problems encountered in development:</h2>
+    <p>
+        I tried to fill the datalist for captaincy options using a local csv file but this
+        didn't work when I opened the webpage in a browser. It threw this error:
+    </p>
+    
+    <code>
+            Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at file:///C:/Users/.../cleaned_players.csv. 
+            (Reason: CORS request not http).
+            <a href="https://developer.mozilla.org/docs/Web/HTTP/CORS/Errors/CORSRequestNotHttp?utm_source=devtools&utm_medium=firefox-cors-errors&utm_campaign=default">
+                [Learn more]
+            </a>
+        </code>
+    <p>
+        I read the documentation linked to in the error message, which suggested running in a local server.
+        This worked well, but wouldn't be viable as I needed my html to work in-place, whenever it's opened.
+        My eventual solution was to make a new python file which extracted the player names from the csv file,
+        converted them to a single long string, then saved them to a txt file.
+        I could then copy this text file into the first line of my javascript file, eliminating the need for external
+        files.
+    </p><br>
+    <h2>Testing</h2>
+
+    <table>
+        <tr class="table-titles">
+            <th>Test Table</th>
+            <th>Subject</th>
+            <th>Method</th>
+            <th>Results</th>
+            <th>Conclusion</th>
+        </tr>
+        <tr>
+            <th rowspan="1" class="table-titles">Unit Testing</td>
+            <td>data_extraction_and_manipulation.py</td>
+            <td>pytest in test_data_extraction_and_manipulation.py</td>
+            <td>4 passed in 0.12s.</td>
+            <td>Test passed.</td>
+        </tr>
+        <tr>
+            <th rowspan="1" class="table-titles">Integration Testing</td>
+            <td>firebase realtime database</td>
+            <td>Does the firebase update on form submission?</td>
+            <td>Yes.</td>
+            <td>Test passed.</td>
+        </tr>
+        <tr>
+            <th rowspan="1" class="table-titles">UI Testing</td>
+            <td>form.html</td>
+            <td>Do the hidden fields display when the relevant radio buttons are checked?</td>
+            <td>Yes.</td>
+            <td>Test passed.</td>
+        </tr>
+        <tr>
+            <th rowspan="1" class="table-titles">Functional Testing</td>
+            <td>dash app app.py visualisations.html</td>
+            <td>Does the displayed data change after options are selected from the dropdown?</td>
+            <td>After a 2-3 second delay.</td>
+            <td>Test passed but could be improved.</td>
+        </tr>
+        <tr>
+            <th rowspan="4" class="table-titles">Performance Testing</td>
+            <td>info.html</td>
+            <td rowspan="4">Lighthouse in Chrome DevTools</td>
+            <td>Performance 100, Accessibility 86, Best Practices 96, SEO 82</td>
+            <td>Very simple page, almost completely text, to be expected.</td>
+        </tr>
+        <tr>
+            <td>visualisations.html</td>
+            <td>Performance 65, Accessibility 89, Best Practices 93, SEO 91</td>
+            <td>Displaying the chart is a strain on the system.</td>
+        </tr>
+        <tr>
+            <td>form.html</td>
+            <td>Performance 99, Accessibility 70, Best Practices 96, SEO 91</td>
+            <td>Good performance, this only measures the page itself, not the firebase logic.</td>
+        </tr>
+        <tr>
+            <td>recommendations.html</td>
+            <td>Performance 27, Accessibility 88, Best Practices 96, SEO 91</td>
+            <td>Poor performance. Lighthouse advised me to reduce unused JavaScript in the plots. This is difficult as
+                they are made by Plotly.</td>
+        </tr>
+    </table>
+    <p>
+        For form.js, lighthouse advised me to add a `lang` attribute, and to wrap labels around inputs, instead of after
+        the input.
+        After applying these two changes, the accessibility score improved to 91.
+        The poor performance for visualisations.html and recommendations.html, was attributed to the charts.
+    </p>
+    <br>
+    <div class="image-container">
+        <img src="images/lighthouse-recommendation.png" alt="Lighthouse Recommendation">
+    </div>
+    <br>
+    <p>
+        This was the suggested fix. This is obviously difficult to implement. I didn't write the html for the graphs,
+        plotly did, so it's not possible to directly edit it in a way that persists after the plotly code is run again.
+    </p>
+    <br>
+
+    <h2>Algorithm</h2>
+    <h3>Pseudocode for data_extraction_and_manipulation.py</h3>
+    <div class="code-container">
+        <pre>
+            <code>
+    df_players_managers = LOAD players_raw.csv
+
+    df_positions = LOAD cleaned_players.csv
+
+    df_teams = LOAD teams.csv
+
+    df_fixtures = LOAD fixtures.csv
+
+    df_players_managers GET_COLUMN 'element_type' = df_positions GET_COLUMN 'element_type'
+        SAVE df_players_managers to players_with_positions.csv
+
+    ASSIGN_GET_COLUMN called 'team_colour' to df_teams
+
+    df_with_teams = MERGE df_players_managers and df_teams based on team-code , also add colours
+
+    df_managers = FILTER df_with_teams to have only managers
+        SAVE df_managers to managers.csv
+
+    df_managers = FILTER df_with_teams to have no managers
+
+    REPLACE positions in df_players 'GK'->'Goalkeeper', 'DEF'->'Defender', 'MID'->'Midfielder', 'FWD'->'Forward'
+    ASSIGN a new GET_COLUMN to df_players  called 'goal_involvements' which is 'assists'+'goals_scored'
+        SAVE df_players to players_only_no_managers.csv
+
+    MERGE df_fixtures with df_teams based on home-team-code and team-code, add team-names and team-colours
+
+    RENAME team-names->home-team-names, team-colours->home-team-colours
+
+    MERGE df_fixtures with df_teams based on away-team-code and team-code, add team-names and team-colours
+
+    RENAME team-names->home-team-names, team-colours->away-team-colours
+        SAVE df_fixtures to fixtures_with_teams.csv
+            </code>
+        </pre>
+    </div>
+    <br>
+
+    <h3>Pseudocode for visualisations.py</h3>
+    <div class="code-container">
+        <pre>
+            <code>
+    df_players = LOAD players_only_no_managers.csv
+    
+    df_managers = LOAD managers.csv
+    
+    team_names = df_players GET_COLUMN 'name'
+    player_names = df_players GET_COLUMN 'web_name'
+    positions = df_players GET_COLUMN 'element_type'
+    team_colours = df_players GET_COLUMN 'team_colour'
+    price = (df_players GET_COLUMN 'now_cost') /10
+    
+    MAKE a 2x3 grid of subplots, NAME them, SET bottom middle plot to be double width
+
+    exp_goals = df_players GET_COLUMN 'expected_goals'
+    goals_scored = df_players GET_COLUMN 'goals_scored'
+
+    PLOT scatterplot x=exp_goals, y=goals_scored
+    MAKE hover-template with name,team,position,price
+    APPLY labels to axes
+    coefficients = FIND coefficients for trendline
+    trendline function = GENERATE function from coefficients
+    x_trend = GENERATE x values for trendline
+    y_trend = APPLY trendline function to x values
+    PLOT line x=x_trend, y=y_trend
+
+    total_points = df_players GET_COLUMN 'total_points'
+
+    PLOT scatterplot x=price, y=total_points
+    MAKE hover-template with name,team,position,price
+    APPLY labels to axes
+    coefficients = FIND coefficients for trendline
+    trendline function = GENERATE function from coefficients
+    x_trend = GENERATE x values for trendline
+    y_trend = APPLY trendline function to x values
+    PLOT line x=x_trend, y=y_trend
+
+    top_10_most_expensive_players_unordered = FILTER out all non-top-10 players
+    top_10_most_expensive_players = ORDER-BY-Price top_10_most_expensive_players_unordered
+
+    names_top_10_most_expensive_players = top_10_most_expensive_players GET_COLUMN 'web_name'
+    team_names_top_10 = top_10_most_expensive_players GET_COLUMN 'name'
+    positions_top_10 = top_10_most_expensive_players GET_COLUMN 'element_type'
+    team_colours_top_10 = top_10_most_expensive_players GET_COLUMN 'team_colour'
+    top_10_expected_goal_involvements = top_10_most_expensive_players GET_COLUMN 'expected_goal_involvements'
+    top_10_actual_goal_involvements = top_10_most_expensive_players GET_COLUMN 'goal_involvements'
+    price_top_10 = (top_10_most_expensive_players GET_COLUMN 'now_cost') /10
+
+    (on same plot)
+        PLOT barchart x=names_top_10_most_expensive_players, y=top_10_actual_goal_involvements
+        PLOT barchart x=names_top_10_most_expensive_players, y=top_10_expected_goal_involvements
+
+    form = df_players GET_COLUMN 'form'
+    ownership_percentage = df_players GET_COLUMN 'selected_by_percent'
+
+    PLOT scatterplot x=ownership_percentage, y=form
+    MAKE hover-template with name,team,position,price
+    APPLY labels to axes
+    coefficients = FIND coefficients for trendline
+    trendline function = GENERATE function from coefficients
+    x_trend = GENERATE x values for trendline
+    y_trend = APPLY trendline function to x values
+    PLOT line x=x_trend, y=y_trend
+
+    manager_points = df_managers GET_COLUMN 'total_points'
+    manager_names = df_managers GET_COLUMN'web_name'
+    manager_teams = df_managers GET_COLUMN'name'
+    manager_colours = df_managers GET_COLUMN'team_colour'
+    manager_price = (df_managers GET_COLUMN 'now_cost')/10
+    PLOT barchart x=manager_names, y=manager_points
+
+    SAVE plots to plot_from_plotly.html
+    SHOW plots in the browser
+            </code>
+        </pre>
+    </div>
+
+    <h3>Code with explanation for data_extraction_and_manipulation.py</h3>
+    <div class="code-container">
+        <pre>
+            <code>
+    import pandas as pd
+    <span class="code-comment"># Pandas is used to read in csv files and manipulate the data within them</span>
+    
+    <span class="code-comment"># here I'm loading the main player data file sourced from https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/refs/heads/master/data/2024-25/players_raw.csv</span>
+    <span class="code-comment"># this file does not contain player positions or team names, but there are other files from the same project which I will use to add this information in</span>
+    <span class="code-comment"># 'df' stands for dataframe</span>
+    df_players_managers = pd.read_csv("players_raw.csv")
+    
+    <span class="code-comment"># here I'm loading a second file from the same source https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/refs/heads/master/data/2024-25/cleaned_players.csv</span>
+    <span class="code-comment"># this second file contains information on player positions (eg Goalkeeper, Defender) but not detailed information on player performance, which is in the first file</span>
+    <span class="code-comment"># these two files have the same  players on the same row, so they can be easily combined together</span>
+    df_positions = pd.read_csv("cleaned_players.csv")
+    
+    <span class="code-comment"># this file is from https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/refs/heads/master/data/2024-25/teams.csv</span>
+    <span class="code-comment"># it contains the team codes as well as team names and information about team performance, wins, draws, losses etc.</span>
+    df_teams = pd.read_csv("teams.csv")
+    
+    <span class="code-comment"># here I'm reading in the fixtures file, this is used for the recommendation</span>
+    df_fixtures = pd.read_csv("fixtures.csv")
+    
+    <span class="code-comment"># I'm combining the element_type (which is actually player positions) from the second player dataset (cleaned_players.csv) with the main player data file (players_raw.csv), </span>
+    <span class="code-comment"># then writing it to a new csv file called players_with_positions.csv</span>
+    <span class="code-comment"># every player is on the same row in both files, so I can assign them like this</span>
+    df_players_managers['element_type'] =  df_positions['element_type']
+    df_players_managers.to_csv("players_with_positions.csv", index=False)
+    
+    <span class="code-comment"># here I'm adding a new column to teams_df called team_colour, as colours are not included in the original dataset</span>
+    <span class="code-comment"># I found these team colours on https://encycolorpedia.com/teams/football/epl</span>
+    df_teams = df_teams.assign(
+        team_colour=[
+            "#ef0107",
+            "#7b003a",
+            "#bf080a",
+            "#e30613",
+            "#005daa",
+            "#034694",
+            "#292d6b",
+            "#274488",
+            "#e5cbcb",
+            "#3a64a3",
+            "#0101e8",
+            "#b31313",
+            "#97c1e7",
+            "#da030e",
+            "#000000",
+            "#e53233",
+            "#ed1a3b",
+            "#cccccc",
+            "#7c2c3b",
+            "#fdb913",
+        ]
+    )
+
+    <span class="code-comment"># I'm adding team names and colours to the player data, in the players_raw.csv the team name is not included, only a team_code </span>
+    <span class="code-comment"># the teams.csv file contains these team codes, next to team names, I am adding these team names to the player data based on the team codes</span>
+    <span class="code-comment"># I also added team colour data to the teams dataframe earlier, I am also combining this colour data with the player data, again based on team codes</span>
+    df_with_teams = pd.merge(df_players_managers, df_teams[['code', 'name', 'team_colour']], left_on='team_code', right_on='code', how='left')
+    
+    <span class="code-comment"># for plot 5, I want to only use managers, so I am filtering out players here, and also saving the manager data to a new csv file</span>
+    df_managers = df_with_teams[(df_with_teams['element_type'] == 'AM')]
+    <span class="code-comment"># here I'm saving a new csv containg only managers, but with information I added about team name and colours</span>
+    df_managers.to_csv("managers.csv", index=False) <span class="code-comment"># this file is used by graphs.py</span>
+    
+    <span class="code-comment"># here I'm filtering the player data, for use in the 1st 4 graphs, as I only want to look at players, not managers. Element type 'AM' corresponds to managers</span>
+    df_players = df_with_teams[(df_with_teams['element_type'] != 'AM')]
+    
+    <span class="code-comment"># the player positions are displayed as 'GK', 'DEF', 'MID', and 'FWD'</span>
+    <span class="code-comment"># I am replacing these with 'Goalkeeper', 'Defender', 'Midfielder', and 'Forward'</span>
+    df_players.loc[:, 'element_type'] = df_players['element_type'].replace({'GK': 'Goalkeeper', 'DEF': 'Defender', 'MID': 'Midfielder', 'FWD': 'Forward'})
+    df_players = df_players.assign(goal_involvements = df_players['assists']+df_players['goals_scored'])
+    <span class="code-comment"># here I'm saving a new csv containg only players, without managers</span>
+    df_players.to_csv("players_only_no_managers.csv", index=False) <span class="code-comment"># this file is used by graphs.py and recommendations.py</span>
+    
+    <span class="code-comment"># here I'm merging df_fixtures with df_teams based on the columns 'team_h' and 'id'</span>
+    <span class="code-comment"># this effectively adds new columns to df_fixtures with the team name and colour for the home team</span>
+    df_fixtures = pd.merge(df_fixtures,df_teams[['id', 'name', 'team_colour']], left_on='team_h', right_on='id', how='left')
+    
+    <span class="code-comment"># here I'm renaming the 'name' column to 'team_h_name', this follows on from the above line</span>
+    df_fixtures.rename(columns={'name': 'team_h_name', 'team_colour': 'team_h_colour'}, inplace=True)
+    
+    <span class="code-comment"># here I'm merging df_fixtures with df_teams based on the columns 'team_a' and 'id'</span>
+    <span class="code-comment"># this is for away teams, but apart from that is the same as the earlier similar line</span>
+    df_fixtures = pd.merge(df_fixtures,df_teams[['id', 'name', 'team_colour']], left_on='team_a', right_on='id', how='left')
+    
+    <span class="code-comment"># here I'm renaming the 'name' column to 'team_h_name'</span>
+    df_fixtures.rename(columns={'name': 'team_a_name', 'team_colour': 'team_a_colour'}, inplace=True)
+    
+    <span class="code-comment"># here I'm saving a new fixtures file which includes team names and colours, for use in the recommendation</span>
+    df_fixtures.to_csv("fixtures_with_teams.csv", index=False)
+            
+            </code>
+        </pre>
+    </div>
+    <h3>Code with explanation for the first scatter plot and first bar chart in visualisation.py</h3>
+    <div class="code-container">
+        <pre>
+            <code>
+    import pandas as pd
+    <span class="code-comment"># Pandas is used for data manipulation and analysis. Here it is used to read in the player and manager data, which is then used to create the visualisations.</span>
+    import numpy as np
+    <span class="code-comment"># Numpy is used for maths in python. Here it makes trendlines for the scatter plots.</span>
+    import plotly.graph_objects as go
+    <span class="code-comment"># Plotly is used for to create the visualisations.</span>
+    from plotly.subplots import make_subplots
+    <span class="code-comment"># This is used to create a subplot grid, so that multiple plots can be displayed side by side.</span>
+
+    <span class="code-comment"># here I'm reading in the player data</span>
+    <span class="code-comment"># I created this file in "data_extraction_and_manipulation.py"</span>
+    <span class="code-comment"># it contains player statistics, from the origninal "players_raw.csv" file, but also team name and colour information, which I added in</span>
+    <span class="code-comment"># I also removed all managers from the file and saved them to "managers.csv", which I import below</span>
+    df_players = pd.read_csv("players_only_no_managers.csv")
+
+    <span class="code-comment"># this is the file that contains the extracted manager statistics and information</span>
+    df_managers = pd.read_csv("managers.csv")
+
+    <span class="code-comment"># these columns are used across most or all of the plots, so I am defining them up here, before the plots</span>
+    <span class="code-comment"># this operation df_xxx['yyy'] extracts the column named yyy as a pandas series, which can then be used for graphing</span>
+    team_names = df_players['name'] <span class="code-comment"># extract column 'name' from the dataframe, this is the team name</span>
+    player_names = df_players['web_name'] <span class="code-comment"># extract column 'web_name' from the dataframe, this is the player name</span>
+    positions = df_players['element_type'] <span class="code-comment"># extract column 'element_type' from the dataframe, this is the player position</span>
+    team_colours = df_players['team_colour'] <span class="code-comment"># extract column 'team_colour' from the dataframe</span>
+    <span class="code-comment"># here I'm converting the price to millions, it is in multiples of £100'000 in the original data</span>
+    price = df_players['now_cost'] / 10  <span class="code-comment"># extract column 'now_cost' from the dataframe, divide by 10</span>
+
+    <span class="code-comment"># here I'm creating a subplot grid (so that I can display multiple plots side by side) and naming each subplot</span>
+    <span class="code-comment"># I have also set the bottom right plot to be empty, but doubled the width of the bottom middle plot, so it takes up the space of two plots</span>
+    fig = make_subplots(
+        rows=2, cols=3,
+        specs=[[{}, {}, {}],
+               [{}, {"colspan": 2}, None]],
+        subplot_titles=( 
+            "Goals Scored versus Expected Goals",
+            "Total Points versus Price",
+            "Expected versus Actual Goal Involvements for 10 most expensive players",
+            "Form versus Ownership",
+            "Total Points (Managers)",
+            ""
+        )
+    )
+    <span class="code-comment"># plot 1: expected goals versus goals scored </span>
+    exp_goals = df_players['expected_goals']
+    goals_scored = df_players['goals_scored']
+    fig.add_trace( <span class="code-comment"># this is the scatter plot for expected goals versus goals scored</span>
+        go.Scatter( <span class="code-comment"># this is a scatter plot</span>
+                    x=exp_goals, <span class="code-comment"># x-axis</span>
+                   y=goals_scored, <span class="code-comment"># y-axis</span>
+                   mode='markers', <span class="code-comment"># this means the scatter points are displayed as coloured dots</span>
+                   marker=dict(color=team_colours),  <span class="code-comment"># I'm using the team colors (which I added to the dataframe earlier) for markers</span>
+                   hovertext=player_names, <span class="code-comment"># used in the hover box</span>
+                   hovertemplate= (
+                       "&lt;b&gt;%{hovertext}&lt;/b&gt;&lt;br&gt;" <span class="code-comment"># I'm making the player name bold</span>
+                       "Team: %{text}&lt;br&gt;" <span class="code-comment"># this is the team name</span>
+                       "Position: %{customdata[0]}&lt;br&gt;" <span class="code-comment"># this is the player position</span>
+                       "Price: £%{customdata[1]}M&lt;br&gt;" <span class="code-comment"># this is the in-game player price</span>
+                       "Expected goals: %{x}&lt;br&gt;" <span class="code-comment"># this is the x-value, expected goals</span>
+                       "Goals scored: %{y}&lt;br&gt;" <span class="code-comment"># this is the y-value, goals scored</span>
+                       "&lt;extra&gt;&lt;/extra&gt;" <span class="code-comment"># this line prevents the plot name from appearing next to the hover box</span>
+                   ),
+                   text= team_names,
+                <span class="code-comment"># since I am displaying so many lines in the hover template, I have to use the zip function here</span>
+                <span class="code-comment"># this converts the 2 arrays into a list of tuples, which I can call in the hover template</span>
+                <span class="code-comment"># I use this again in the later plots</span>
+                   customdata= list(zip(positions,price)), <span class="code-comment"># used in the hover box</span>
+                   name='Goals Scored versus Expected Goals'
+        ),
+        row=1, col=1 <span class="code-comment"># this is the position of the plot in the subplot grid</span>
+    )
+    <span class="code-comment"># here I'm making a trendline for plot 1 using numpy, then placing it on the scatter plot using plotly</span>
+    <span class="code-comment"># this code is used for all of the trendlines</span>
+    <span class="code-comment"># this line generates an array containing the 2 coefficients for the line of best fit(m and c from y=mx+c)</span>
+    coefficients_exp_goals_goals_scored = np.polyfit(exp_goals, goals_scored, 1)
+    <span class="code-comment"># this line takes the 2 coeffiecient and makes them into a function, which returns a y-value when given an x-value</span>
+    trendline_exp_goals_goals_scored = np.poly1d(coefficients_exp_goals_goals_scored)
+    <span class="code-comment"># this line generates 100 points between the min and max x-values, to serve as x-values for the trendline</span>
+    x_trend_exp_goals_goals_scored = np.linspace(min(exp_goals), max(exp_goals), 100)
+    <span class="code-comment"># this line generates the y values for the trendline, using the function defined above</span>
+    y_trend_exp_goals_goals_scored = trendline_exp_goals_goals_scored(x_trend_exp_goals_goals_scored)
+    <span class="code-comment"># this line adds the trendline to the scatter plot</span>
+    fig.add_trace(
+        go.Scatter(x=x_trend_exp_goals_goals_scored, y=y_trend_exp_goals_goals_scored, mode='lines', line=dict(color='37003c'), name='Trendline'),
+        row=1, col=1
+    )
+    <span class="code-comment"># here I'm adding labels to the axes</span>
+    fig.update_xaxes(title_text= "Expected Goals", row=1, col=1)
+    fig.update_yaxes(title_text= "Goals Scored", row=1, col=1)
+                
+    <span class="code-comment"># plot 3: expected goal involvements for top 10 most expensive players</span>
+    <span class="code-comment"># this line filters out all players who are not in the top 10 most expensive</span>
+    top_10_most_expensive_players_unordered = df_players[(df_players['now_cost_rank'] &lt;= 10)]
+    <span class="code-comment"># this line orders the players by in-game price</span>
+    top_10_most_expensive_players = top_10_most_expensive_players_unordered.sort_values(by='now_cost_rank')
+    <span class="code-comment"># this saves the now-ordered data for the 10 most expensive players to a new csv</span>
+    top_10_most_expensive_players.to_csv("10_most_expensive players", index=False)
+    names_top_10_most_expensive_players = top_10_most_expensive_players['web_name'] <span class="code-comment"># extract column 'web_name' from the dataframe, this is the player name</span>
+    team_names_top_10 = top_10_most_expensive_players['name'] <span class="code-comment"># extract column 'name' from the dataframe, this is the team name</span>
+    positions_top_10 = top_10_most_expensive_players['element_type'] <span class="code-comment"># extract column 'element_type' from the dataframe, this is the player position</span>
+    team_colours_top_10 = top_10_most_expensive_players['team_colour'] <span class="code-comment"># extract column 'team_colour' from the dataframe</span>
+    top_10_expected_goal_involvements = top_10_most_expensive_players['expected_goal_involvements'] <span class="code-comment"># extract column 'expected_goal_involvements' from the dataframe</span>
+    top_10_actual_goal_involvements = top_10_most_expensive_players['goal_involvements'] <span class="code-comment"># extract column 'goal_involvements' from the dataframe</span>
+    <span class="code-comment"># here I'm converting the price to millions, it is in multiples of £100'000 in the original data</span>
+    price_top_10 = top_10_most_expensive_players['now_cost']/10 <span class="code-comment"># extract column 'now_cost' from the dataframe, divide all values in it by 10</span>
+    fig.add_trace( <span class="code-comment"># this is the bar chart for expected goal involvements</span>
+        go.Bar( <span class="code-comment"># this is a bar chart</span>
+            x=names_top_10_most_expensive_players, <span class="code-comment"># x-axis</span>
+            y=top_10_expected_goal_involvements, <span class="code-comment"># y-axis</span>
+            marker_color=team_colours_top_10,  <span class="code-comment"># I'm using the team colors (which I added to the dataframe earlier) for the colour of the bars</span>
+            hovertext=names_top_10_most_expensive_players, <span class="code-comment"># used in the hover box</span>
+            offsetgroup= 0, <span class="code-comment"># this is used to place the bars next to each other, rather than on top of each other, this bar is on the left</span>
+            hovertemplate= (
+                "&lt;b&gt;%{hovertext}&lt;/b&gt;&lt;br&gt;" <span class="code-comment"># I'm making the player name bold</span>
+                "Team: %{text}&lt;br&gt;" <span class="code-comment"># this is the team name</span>
+                "Position: %{customdata[0]}&lt;br&gt;" <span class="code-comment"># this is the player position</span>
+                "Price: £%{customdata[1]}M&lt;br&gt;" <span class="code-comment"># this is the in-game player price</span>
+                "Expected goal involvements: %{y}&lt;br&gt;(Expected goals + Expected assists)&lt;br&gt;" <span class="code-comment"># this is the y-value, expected goal involvements</span>
+                "Actual goal involvements: %{customdata[2]}&lt;br&gt;(Goals + Assists)" <span class="code-comment"># this is the actual goal involvements</span>
+                "&lt;extra&gt;&lt;/extra&gt;" <span class="code-comment"># this line prevents the plot name from appearing next to the hover box</span>
+            ),
+            text=team_names_top_10,
+            <span class="code-comment"># since I am displaying so many lines in the hover template, I have to use the zip function here, then convert to a list</span>
+            <span class="code-comment"># this converts the 2 arrays into a list of tuples, which I can call in the hover template</span>
+            customdata= list(zip(positions_top_10,price_top_10,top_10_actual_goal_involvements)), <span class="code-comment"># used in the hover box</span>
+            name= 'Expected goal involvements for 10 most expensive players'
+            ),
+        row=1, col=3 <span class="code-comment"># this is the position of the plot in the subplot grid</span>
+    )
+    fig.add_trace( <span class="code-comment"># this is the bar chart for actual goal involvements</span>
+        go.Bar( <span class="code-comment"># this is a bar chart</span>
+            x=names_top_10_most_expensive_players, <span class="code-comment"># x-axis</span>
+            y=top_10_actual_goal_involvements, <span class="code-comment"># y-axis</span>
+            marker_color=team_colours_top_10, <span class="code-comment"># I'm using the team colors (which I added to the dataframe earlier) for the colour of the bars</span>
+            hovertext=names_top_10_most_expensive_players, <span class="code-comment"># used in the hover box</span>
+            offsetgroup=1, <span class="code-comment"># this is used to place the bars next to each other, rather than on top of each other, this bar is on the right</span>
+            hovertemplate= (
+                "&lt;b&gt;%{hovertext}&lt;/b&gt;&lt;br&gt;" <span class="code-comment"># I'm making the player name bold</span>
+                "Team: %{text}&lt;br&gt;" <span class="code-comment"># this is the team name</span>
+                "Position: %{customdata[0]}&lt;br&gt;" <span class="code-comment"># this is the player position</span>
+                "Price: £%{customdata[1]}M&lt;br&gt;" <span class="code-comment"># this is the in-game player price</span>
+                "Expected goal involvements: %{customdata[2]}&lt;br&gt;(Expected goals + Expected assists)&lt;br&gt;" <span class="code-comment"># this is the y-value, expected goal involvements</span>
+                "Actual goal involvements: %{y}&lt;br&gt;(Goals + Assists)" <span class="code-comment"># this is the actual goal involvements</span>
+                "&lt;extra&gt;&lt;/extra&gt;" <span class="code-comment"># this line prevents the plot name from appearing next to the hover box</span>
+            ),
+            text=team_names_top_10, <span class="code-comment"># used in the hover box</span>
+            <span class="code-comment"># since I am displaying so many lines in the hover template, I have to use the zip function here, then convert to a list</span>
+            customdata=list(zip(positions_top_10, price_top_10,top_10_expected_goal_involvements)), <span class="code-comment"># used in the hover box</span>
+            name='Actual goal involvements for 10 most expensive players'
+        ),
+        row=1, col=3 <span class="code-comment"># this is the position of the plot in the subplot grid</span>
+    )
+            
+    <span class="code-comment"># here I'm adding labels to the axes and rotating the x-axis labels for the bar charts with names, so that they don't overlap and are readable</span>
+    fig.update_xaxes(title_text= "Manager Name", tickangle=45, row=2, col=2)
+    fig.update_yaxes(title_text= "Total Points", row=2, col=2)
+            
+    <span class="code-comment"># here I'm setting height and width of the total figure, hiding the legend, and setting the template</span>
+    fig.update_layout(
+        showlegend=False,
+        height=1000,
+        width=1880,
+        template="plotly_white"
+    )
+            
+    <span class="code-comment"># here I'm saving the plot as a HTML file, to use in my data system</span>
+    fig.write_html("plot_from_plotly.html")
+            
+    <span class="code-comment"># this opens the plot in a browser, so it can be viewed</span>
+    fig.show()
+            </code>
+        </pre>
+    </div>
+
+</body>
+
+</html>

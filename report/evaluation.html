@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Evaluation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <script src="menu_bar.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="menu_and_header">
+            <div class="header-top">
+
+                <img class="pl-header-logo" src="images/pl-main-logo.png" alt="Premier League Logo">
+
+                <div class="hamburger-container" onclick="menu_bar_transform(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+
+                <h0>Fantasy Premier League Stats: Report</h0>
+
+            </div>
+
+            <nav id="menu">
+
+                <ul id="internal_links" class="internal_links fade-out">
+                    <li><a href="index.html" class="link-list-element">Home</a></li>
+                    <li><a href="meeting_the_brief.html" class="link-list-element">Meeting the brief</a></li>
+                    <li><a href="investigation.html" class="link-list-element">Investigation</a></li>
+                    <li><a href="plan_and_design.html" class="link-list-element">Plan and design</a></li>
+                    <li><a href="create.html" class="link-list-element">Create</a></li>
+                    <li><a href="evaluation.html" class="link-list-element">Evaluation</a></li>
+                    <li><a href="references.html" class="link-list-element">References</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+
+    <h1>Evaluation</h1>
+    <p>Overall, my project met or exceeded all the basic and advanced requirements in the brief.</p>
+    <h3>Basic requirements:</h3>
+    <ol>
+        <li><br>
+            a <a
+                href="https://github.com/vaastav/Fantasy-Premier-League">https://github.com/vaastav/Fantasy-Premier-League</a>
+        </li>
+        <li><br>
+            a,b,c See visualisations.py, visualisations.png and plot_from_plotly.html.
+        </li>
+        <li><br>
+            a See info.html.
+            b See visualisations.html, without an internet connection it displays plot_from_plotly.html in an iframe.
+        </li>
+    </ol><br>
+    <h3>Advanced requirements:</h3>
+    <ol>
+        <li>
+            See app.py, <a
+                href="https://lccs-dash-visualisation.onrender.com/">https://lccs-dash-visualisation.onrender.com/"</a>,
+            visualisations.html.
+        </li>
+        <li><br>
+            a,b,c See form.html.
+        </li>
+        <li><br>
+            a,b,c,d,e See info.html, visualisations.py, visualisations.png, plot_from_plotly.html and
+            visualisations.html.
+        </li>
+        <li>
+            See recommendations.py recommendations.html.
+        </li>
+    </ol><br>
+
+    <p>
+        For my dash app, because I'm using the free render plan, response times are slow,
+        both when filtering the data and especially when the page loads. I often have to wait up to a minute,
+        then reload the page, before the interactive chart displays. There is a simple fix for this,
+        in future I would use a more capable, paid hosting service.
+    </p>
+    <p>
+        I considered implementing something similar to FPL Data, where the user can select any two statistics to graph
+        against each other. On the other hand, I think this can be very confusing to the user, as there are no
+        explanations of the significance of each graph, like I have on my information system. I ultimately settled on
+        having only 5 charts, but allowing the user to choose to only display players from certain teams or who play in
+        certain positions.
+    </p>
+    <p>
+        Another potential future development would be expanding the recommendation system, by using betting odds, then
+        calculating implied probabilities of an event. There is a basic implementation of this in
+        captaincy_calculator.py. It requires the user to search online for odds of a player scoring a certain number of
+        goals, then enter them into the terminal after running the code. It then calculates the expected value of FPL
+        points earned from scoring goals. A better implementation of this would use betting odds from an API, but these
+        are all paid and so I didn’t use them in this project. This improved program would ideally be hosted externally
+        and accessed in a browser. It could predict the players with the highest expected value of FPL points in that
+        week, by using betting odds for goals, assists, cards, clean sheets etc. I have not found an implementation of
+        this online, so it would be a novel approach. I found sites that state the calculated probabilities of these
+        events, but don’t apply them in the way I discuss.
+    </p>
+
+</body>
+
+</html>

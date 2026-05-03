@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Plan and design</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <script src="menu_bar.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="menu_and_header">
+                <div class="header-top">
+
+                    <img class="pl-header-logo" src="images/pl-main-logo.png" alt="Premier League Logo">
+
+                    <div class="hamburger-container" onclick="menu_bar_transform(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+
+                    <h0>Fantasy Premier League Stats: Report</h0>
+
+                </div>
+                
+                <nav id="menu">
+
+                    <ul id="internal_links" class="internal_links fade-out">
+                        <li><a href="index.html" class="link-list-element">Home</a></li>
+                        <li><a href="meeting_the_brief.html" class="link-list-element">Meeting the brief</a></li>
+                        <li><a href="investigation.html" class="link-list-element">Investigation</a></li>
+                        <li><a href="plan_and_design.html" class="link-list-element">Plan and design</a></li>
+                        <li><a href="create.html" class="link-list-element">Create</a></li>
+                        <li><a href="evaluation.html" class="link-list-element">Evaluation</a></li>
+                        <li><a href="references.html" class="link-list-element">References</a></li>
+                    </ul>
+
+                </nav>
+            </div>
+        </header>
+
+        <h1>Plan and design</h1>
+
+        <h2>Plan for project</h2>
+        <ul>
+            <li>Find and pick a dataset.</li>
+            <li>Use pandas to extract and manipulate data for graphing.</li>
+            <li>Use plotly to plot graphs.</li>
+            <li>Make a webpage and fill it with information about the dataset.</li>
+            <li>Display the plotly graphs on the webpage.</li>
+            <li>Use dash to create a web app allowing the user to filter data.</li>
+            <li>Host this web app on render.com and display it on the webpage.</li>
+            <li>Make a form on the webpage and link it to a firebase realtime database.</li>
+            <li>Display the results of the form on the webpage using chart.js after the user submits the form.</li>
+        </ul>
+
+        <h2>Design</h2>
+        <p>I initially took inspiration for my design from the Premier League mobile app.</p>
+        <br>
+        <div class="image-container">
+            <img class="social-media-screenshot" src="images/PremierLeague_app_screenshots.png">
+        </div>
+        <br>
+
+        <p>My initial website design had background colours from the “matchday live” section of the app.</p>
+        <br>
+        <div class="image-container">
+            <img class="website-screenshot" src="images/matchday-live-background.png">
+        </div>
+        <br>
+
+        <p>I also looked at the Premier League website. My final colour scheme was taken from this website, specifically the colours:</p>
+        <br>
+        
+        <table>
+            <tr>
+                <td>
+                    <span class="dot" style="background-color: #37003c;"></span> #37003c
+                </td>
+                <td>
+                    For the website background.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="dot" style="background-color: #963cff;"></span> #963cff
+                </td>
+                <td>
+                    For the navigation menu.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="dot" style="background-color: #4b1a50;"></span> #4b1a50
+                </td>
+                <td>
+                    For the background colour in containers, like the form etc.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="dot" style="background-color: #5f3363;"></span> #5f3363
+                </td>
+                <td>
+                    For the borders.
+                </td>
+            </tr>
+        </table>
+        <br>
+        <p>I found the colours by inspecting the elements on the Premier League site.</p>
+        <br>
+
+        <div class="image-container">
+            <img class="website-screenshot" src="images/PL-website-1.png" alt="Premier League Website">
+        </div>
+        <br>
+        <div class="image-container">
+            <img class="website-screenshot" src="images/PL-website-2.png" alt="Premier League Website">
+        </div>
+        <br>
+
+        <h2>Technologies in use</h2>
+        <p>
+            Pandas: to work with the csv files. I can use pandas for basic data manipulation, 
+            like reading in the data, and also for data cleaning and more advanced use cases. 
+            My data is split across several csv files, 
+            one file contains player and manager names and positions, one has player and manager names along with detailed statistics on their games, 
+            one has team names. I will need to combine these into one large dataframe, 
+            which I can use for graphing. Pandas seems to be the best option for this.
+        </p>
+        <p>
+            Plotly: to generate my plots. It has an extensive array of options for things like graph types and display modes. 
+            Interactivity is also very easy to implement.
+        </p>
+        <p>
+            Numpy: allows me to generate trendlines from my data. I can then plot these trendlines using plotly.
+        </p>
+        <p>
+            Dash: a library that builds on plotly, and allows for far more interactivity in my charts, 
+            such as filtering data. One downside is that in order to be used on an existing webpage 
+            (i.e. instead of running in a local server on its own), it has to be hosted externally.
+        </p>
+        <p>
+            Render.com: the external hosting site I will be using for my dash app. 
+            They offer a free tier which, although it has limitations, was still the best I could find.
+        </p>
+        <p>
+            Github: render.com requires files for the app to be on a github repository.
+        </p>
+        <p>
+            Firebase realtime database: for my form. It includes real-time data synchronisation, 
+            meaning when a user submits a form, the data is instantly updated in the database, and any connected client 
+            (e.g., the webpage displaying the chart) is immediately notified of the changes. 
+            It's never offline and always up to date.
+        </p>
+        <p>
+            Chart.js: to display the results of the forms. Chart.js provides many options for creating and formatting charts.
+        </p>
+        <h2>Use Case Diagram</h2>
+        <div class="image-container">
+            <img src="images/Use-Case-Diagram.png" alt="Use Case Diagram" class="use-case-diagram">
+        </div>
+        <p>
+            My website is designed to be used by footallers, managers, analysts working for clubs, fans, and FPL users.
+        </p>
+        <table>
+            <tr>
+                <th>Actor</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Footballer</td>
+                <td>View statistics on themselves and other players.</td>
+            </tr>
+            <tr>
+                <td>Manager or Analyst</td>
+                <td>View statistics on their own players and players they are looking to sign.</td>
+            </tr>
+            <tr>
+                <td>Fan</td>
+                <td>View statistics on players, fill out form and view results.</td>
+            </tr>
+            <tr>
+                <td>FPL User</td>
+                <td>View statistics on players, fill out form and view results, view recommendations for their FPL squad.</td>
+            </tr>
+        </table>
+        <br>
+        <h2>Flowchart</h2>
+        <div class="image-container">
+            <img src="images/Flowchart.png" alt="Flowchart" class="flowchart">
+        </div>
+    </body>
+</html>
